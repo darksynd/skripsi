@@ -1,0 +1,92 @@
+body{
+    background-color: azure;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+}
+.header{
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* '.' untuk style 'class', '#' untuk style 'id' */
+.div-utama{
+    background-color: aquamarine;
+}
+.testing{
+    margin: 50px;
+    padding: 50px;
+}
+.nav-bar >ul >a{ /*artinya spesifik dalam navbar, dalam ul dalam a*/
+    float: left;
+    width: 48%;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    /*background-color: chocolate;*/
+}
+
+.nav-bar{
+    background-color: chocolate;
+    height: 5vh;
+    border-top-left-radius: 5px; /*biar lengkung atas kiri navbar nya*/
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*border-radius: 5px; ini untuk angsung semua, ga usah bikin border bottom top left right gitu*/ 
+}
+
+.nav-bar > ul > .navbar-home:hover { /*ul bawaan html jadi gak perlu titik, yang dua lain perlu titik karena class buatan sendiri*/
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.content{
+    border: solid 3px;
+    border-radius: 5px;
+    margin: 5% 0; /*5 itu atas bawah, 0 itu kiri kanan*/
+    /*color: blue;*/
+    /*border-color: aqua;*/
+}
+
+.each-content {
+    margin: 2%;
+    display: flex;
+}
+
+.each-content > p {
+    margin: 5% 3%;
+}
+
+.image-content {
+    background: url("./Assets/cake1.jpg") no-repeat; /*ambil file cake 1 dari assets dari 1 folder yang sama dengan style ini*/ /*no repeat biar gambar nya ga berulang ulang*/
+    width: 100%;
+    height: 250px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.input-field {
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.input-field > p {
+    margin: 0;
+}
+
+.input-field > input {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0 1%;
+}
+
+.input-field > input[type="submit"]{
+    background-color: gold;
+    margin: 0 auto;
+    cursor: pointer;
+}
