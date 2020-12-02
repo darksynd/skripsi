@@ -1,0 +1,942 @@
+2020-11-10T07:29:33.662319Z [-] Removing stale pidfile /home/cowrie/cowrie/var/run/cowrie.pid
+2020-11-10T07:29:33.662975Z [-] Python Version 3.6.9 (default, Oct  8 2020, 12:12:24) [GCC 8.4.0]
+2020-11-10T07:29:33.663008Z [-] Twisted Version 20.3.0
+2020-11-10T07:29:33.665763Z [-] Loaded output engine: jsonlog
+2020-11-10T07:29:33.668832Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 20.3.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.6.9) starting up.
+2020-11-10T07:29:33.668930Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2020-11-10T07:29:33.679450Z [-] CowrieSSHFactory starting on 2222
+2020-11-10T07:29:33.680142Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f1145930ac8>
+2020-11-10T07:29:33.702032Z [-] Ready to accept SSH connections
+2020-11-10T07:29:33.702803Z [-] HoneyPotTelnetFactory starting on 2223
+2020-11-10T07:29:33.705092Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Starting factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f1145930be0>
+2020-11-10T07:29:33.705836Z [-] Ready to accept Telnet connections
+2020-11-10T08:44:29.198616Z [-] Removing stale pidfile /home/cowrie/cowrie/var/run/cowrie.pid
+2020-11-10T08:44:29.199310Z [-] Python Version 3.6.9 (default, Oct  8 2020, 12:12:24) [GCC 8.4.0]
+2020-11-10T08:44:29.199455Z [-] Twisted Version 20.3.0
+2020-11-10T08:44:29.201710Z [-] Loaded output engine: jsonlog
+2020-11-10T08:44:29.204064Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 20.3.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.6.9) starting up.
+2020-11-10T08:44:29.204137Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2020-11-10T08:44:29.221997Z [-] CowrieSSHFactory starting on 2222
+2020-11-10T08:44:29.222662Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7fe6d02b7978>
+2020-11-10T08:44:29.242944Z [-] Ready to accept SSH connections
+2020-11-10T08:44:29.243701Z [-] HoneyPotTelnetFactory starting on 2223
+2020-11-10T08:44:29.246479Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Starting factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7fe6d02b7a90>
+2020-11-10T08:44:29.251885Z [-] Ready to accept Telnet connections
+2020-11-10T08:51:52.752000Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 140.213.33.218:19362 (206.189.93.218:2222) [session: 401dd041fa67]
+2020-11-10T08:52:35.728851Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 140.213.33.218:30706 (206.189.93.218:2222) [session: e2b345d582f6]
+2020-11-10T08:52:35.746460Z [HoneyPotSSHTransport,1,140.213.33.218] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T08:52:35.804096Z [HoneyPotSSHTransport,1,140.213.33.218] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T08:52:35.805888Z [HoneyPotSSHTransport,1,140.213.33.218] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T08:52:35.806026Z [HoneyPotSSHTransport,1,140.213.33.218] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:52:35.806077Z [HoneyPotSSHTransport,1,140.213.33.218] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:52:36.998742Z [HoneyPotSSHTransport,1,140.213.33.218] NEW KEYS
+2020-11-10T08:52:37.115606Z [HoneyPotSSHTransport,1,140.213.33.218] starting service b'ssh-userauth'
+2020-11-10T08:52:37.185302Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] b'root' trying auth b'none'
+2020-11-10T08:52:39.008363Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] b'root' trying auth b'password'
+2020-11-10T08:52:39.009168Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] Could not read etc/userdb.txt, default database activated
+2020-11-10T08:52:39.009667Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] login attempt [b'root'/b'tasdasd'] succeeded
+2020-11-10T08:52:39.010196Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T08:52:39.011338Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] b'root' authenticated with b'password'
+2020-11-10T08:52:39.011613Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,1,140.213.33.218] starting service b'ssh-connection'
+2020-11-10T08:52:39.089402Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] got channel b'session' request
+2020-11-10T08:52:39.089743Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] channel open
+2020-11-10T08:52:39.089880Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] got global b'no-more-sessions@openssh.com' request
+2020-11-10T08:52:39.211975Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] pty request: b'xterm-256color' (30, 120, 640, 480)
+2020-11-10T08:52:39.212762Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Terminal Size: 120 30
+2020-11-10T08:52:39.213768Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] getting shell
+2020-11-10T08:52:42.169021Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] CMD: blasdij
+2020-11-10T08:52:42.182380Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Can't find command blasdij
+2020-11-10T08:52:42.182525Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Command not found: blasdij
+2020-11-10T08:52:46.590667Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] CMD: testing aja wey
+2020-11-10T08:52:46.592427Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Can't find command testing
+2020-11-10T08:52:46.592547Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Command not found: testing aja wey
+2020-11-10T08:52:49.294428Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] CMD: om kevin
+2020-11-10T08:52:49.295265Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Can't find command om
+2020-11-10T08:52:49.295365Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Command not found: om kevin
+2020-11-10T08:52:58.296638Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] CMD: coba ini keterima ga ?
+2020-11-10T08:52:58.305230Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Can't find command coba
+2020-11-10T08:52:58.305423Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Command not found: coba ini keterima ga ?
+2020-11-10T08:53:52.821054Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T08:53:52.829042Z [HoneyPotSSHTransport,0,140.213.33.218] connection lost
+2020-11-10T08:53:52.829217Z [HoneyPotSSHTransport,0,140.213.33.218] Connection lost after 120 seconds
+2020-11-10T08:55:39.084955Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T08:55:39.101122Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,140.213.33.218] Closing TTY Log: var/lib/cowrie/tty/3fdf8bf15e1e9ac7ce2aeb0cbaabb86b61468bbb14fc84e1bb2e64cda52598e7 after 179 seconds
+2020-11-10T08:55:39.102647Z [HoneyPotSSHTransport,1,140.213.33.218] avatar root logging out
+2020-11-10T08:55:39.102717Z [HoneyPotSSHTransport,1,140.213.33.218] connection lost
+2020-11-10T08:55:39.102784Z [HoneyPotSSHTransport,1,140.213.33.218] Connection lost after 183 seconds
+2020-11-10T08:58:31.820501Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53051 (206.189.93.218:2222) [session: dfdb469d070b]
+2020-11-10T08:58:31.836909Z [HoneyPotSSHTransport,2,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T08:58:31.860868Z [HoneyPotSSHTransport,2,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T08:58:31.862126Z [HoneyPotSSHTransport,2,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T08:58:31.862271Z [HoneyPotSSHTransport,2,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:58:31.862331Z [HoneyPotSSHTransport,2,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:58:46.287230Z [HoneyPotSSHTransport,2,103.125.43.28] connection lost
+2020-11-10T08:58:46.290378Z [HoneyPotSSHTransport,2,103.125.43.28] Connection lost after 14 seconds
+2020-11-10T08:59:30.751220Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53100 (206.189.93.218:2222) [session: 91c78bc72b12]
+2020-11-10T08:59:30.755321Z [HoneyPotSSHTransport,3,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T08:59:30.778030Z [HoneyPotSSHTransport,3,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T08:59:30.779199Z [HoneyPotSSHTransport,3,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T08:59:30.779277Z [HoneyPotSSHTransport,3,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:59:30.779326Z [HoneyPotSSHTransport,3,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T08:59:32.883971Z [HoneyPotSSHTransport,3,103.125.43.28] connection lost
+2020-11-10T08:59:32.886144Z [HoneyPotSSHTransport,3,103.125.43.28] Connection lost after 2 seconds
+2020-11-10T09:05:31.871663Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53171 (206.189.93.218:2222) [session: dbb344202e0d]
+2020-11-10T09:05:31.877254Z [HoneyPotSSHTransport,4,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:05:31.899819Z [HoneyPotSSHTransport,4,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:05:31.901124Z [HoneyPotSSHTransport,4,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:05:31.901292Z [HoneyPotSSHTransport,4,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:05:31.901413Z [HoneyPotSSHTransport,4,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:05:34.983248Z [HoneyPotSSHTransport,4,103.125.43.28] connection lost
+2020-11-10T09:05:34.985830Z [HoneyPotSSHTransport,4,103.125.43.28] Connection lost after 3 seconds
+2020-11-10T09:06:03.690443Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53174 (206.189.93.218:2222) [session: 782ed15efa7a]
+2020-11-10T09:06:03.691580Z [HoneyPotSSHTransport,5,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:06:03.714196Z [HoneyPotSSHTransport,5,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:06:03.715618Z [HoneyPotSSHTransport,5,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:06:03.715824Z [HoneyPotSSHTransport,5,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:06:03.715961Z [HoneyPotSSHTransport,5,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:06:05.224801Z [HoneyPotSSHTransport,5,103.125.43.28] NEW KEYS
+2020-11-10T09:06:05.284456Z [HoneyPotSSHTransport,5,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T09:06:05.302029Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] b'root' trying auth b'none'
+2020-11-10T09:06:12.169509Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] b'root' trying auth b'password'
+2020-11-10T09:06:12.170439Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:06:12.170676Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] login attempt [b'root'/b'P@ssW0rd'] succeeded
+2020-11-10T09:06:12.171367Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T09:06:12.172455Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] b'root' authenticated with b'password'
+2020-11-10T09:06:12.172776Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,5,103.125.43.28] starting service b'ssh-connection'
+2020-11-10T09:06:12.190115Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] got channel b'session' request
+2020-11-10T09:06:12.190509Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] channel open
+2020-11-10T09:06:12.190671Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] got global b'no-more-sessions@openssh.com' request
+2020-11-10T09:06:12.371110Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] pty request: b'xterm-256color' (30, 120, 640, 480)
+2020-11-10T09:06:12.373325Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Terminal Size: 120 30
+2020-11-10T09:06:12.375446Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] getting shell
+2020-11-10T09:06:18.931170Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: netstat
+2020-11-10T09:06:18.931978Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: netstat 
+2020-11-10T09:07:02.886161Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: halo
+2020-11-10T09:07:02.900537Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command halo
+2020-11-10T09:07:02.900736Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: halo
+2020-11-10T09:07:04.038592Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: oi
+2020-11-10T09:07:04.039632Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command oi
+2020-11-10T09:07:04.039869Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: oi
+2020-11-10T09:07:08.692808Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: testing
+2020-11-10T09:07:08.693846Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command testing
+2020-11-10T09:07:08.694079Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: testing
+2020-11-10T09:07:10.447357Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: 1
+2020-11-10T09:07:10.448399Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command 1
+2020-11-10T09:07:10.448601Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: 1
+2020-11-10T09:07:10.820379Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: 2
+2020-11-10T09:07:10.826689Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command 2
+2020-11-10T09:07:10.826917Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: 2
+2020-11-10T09:07:11.154646Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: 3
+2020-11-10T09:07:11.155649Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command 3
+2020-11-10T09:07:11.155881Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: 3
+2020-11-10T09:07:38.153169Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: pwd
+2020-11-10T09:07:38.153992Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: pwd 
+2020-11-10T09:07:39.285168Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: id
+2020-11-10T09:07:39.285988Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: id 
+2020-11-10T09:07:42.191094Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: ls
+2020-11-10T09:07:42.191906Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: ls 
+2020-11-10T09:07:48.161997Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: cd /etc/
+2020-11-10T09:07:48.164248Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: cd /etc/
+2020-11-10T09:07:48.891393Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: ls
+2020-11-10T09:07:48.892252Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command found: ls 
+2020-11-10T09:07:56.847531Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] CMD: ufw status
+2020-11-10T09:07:56.862001Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Can't find command ufw
+2020-11-10T09:07:56.862192Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Command not found: ufw status
+2020-11-10T09:09:12.253278Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T09:09:12.268163Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,5,103.125.43.28] Closing TTY Log: var/lib/cowrie/tty/5dd144ec3c7b20ecfd67747e5f9e609b30e0b4e3068c38658cd975885d58079e after 179 seconds
+2020-11-10T09:09:12.269892Z [HoneyPotSSHTransport,5,103.125.43.28] avatar root logging out
+2020-11-10T09:09:12.269963Z [HoneyPotSSHTransport,5,103.125.43.28] connection lost
+2020-11-10T09:09:12.270021Z [HoneyPotSSHTransport,5,103.125.43.28] Connection lost after 188 seconds
+2020-11-10T09:21:52.685384Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53379 (206.189.93.218:2222) [session: 86a1db01806e]
+2020-11-10T09:21:52.690636Z [HoneyPotSSHTransport,6,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:21:52.713371Z [HoneyPotSSHTransport,6,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:21:52.715352Z [HoneyPotSSHTransport,6,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:21:52.715425Z [HoneyPotSSHTransport,6,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:21:52.715473Z [HoneyPotSSHTransport,6,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:21:52.802564Z [HoneyPotSSHTransport,6,103.125.43.28] NEW KEYS
+2020-11-10T09:21:52.859267Z [HoneyPotSSHTransport,6,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T09:21:52.876462Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] b'skripsi' trying auth b'none'
+2020-11-10T09:21:56.384453Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] b'skripsi' trying auth b'password'
+2020-11-10T09:21:56.385174Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:21:56.385381Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] login attempt [b'skripsi'/b'P@ssW0rd'] failed
+2020-11-10T09:21:57.387185Z [-] b'skripsi' failed auth b'password'
+2020-11-10T09:21:57.387409Z [-] unauthorized login: 
+2020-11-10T09:22:02.737113Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] b'skripsi' trying auth b'password'
+2020-11-10T09:22:02.742047Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:22:02.742335Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,6,103.125.43.28] login attempt [b'skripsi'/b'P@ssW0rd'] failed
+2020-11-10T09:22:03.743954Z [-] b'skripsi' failed auth b'password'
+2020-11-10T09:22:03.744179Z [-] unauthorized login: 
+2020-11-10T09:22:07.218547Z [HoneyPotSSHTransport,6,103.125.43.28] connection lost
+2020-11-10T09:22:07.218753Z [HoneyPotSSHTransport,6,103.125.43.28] Connection lost after 14 seconds
+2020-11-10T09:22:23.275387Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:53390 (206.189.93.218:2222) [session: 69ea7a55db53]
+2020-11-10T09:22:23.276310Z [HoneyPotSSHTransport,7,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:22:23.294507Z [HoneyPotSSHTransport,7,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:22:23.296053Z [HoneyPotSSHTransport,7,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:22:23.296125Z [HoneyPotSSHTransport,7,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:22:23.296174Z [HoneyPotSSHTransport,7,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:22:23.330966Z [HoneyPotSSHTransport,7,103.125.43.28] NEW KEYS
+2020-11-10T09:22:23.387446Z [HoneyPotSSHTransport,7,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T09:22:23.404160Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] b'root' trying auth b'none'
+2020-11-10T09:22:26.914428Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] b'root' trying auth b'password'
+2020-11-10T09:22:26.914805Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:22:26.914951Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] login attempt [b'root'/b'P@ssW0rd'] succeeded
+2020-11-10T09:22:26.915526Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T09:22:26.917707Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] b'root' authenticated with b'password'
+2020-11-10T09:22:26.917995Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,7,103.125.43.28] starting service b'ssh-connection'
+2020-11-10T09:22:26.935705Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] got channel b'session' request
+2020-11-10T09:22:26.936028Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] channel open
+2020-11-10T09:22:26.936153Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] got global b'no-more-sessions@openssh.com' request
+2020-11-10T09:22:27.134433Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] pty request: b'xterm-256color' (30, 120, 640, 480)
+2020-11-10T09:22:27.139388Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Terminal Size: 120 30
+2020-11-10T09:22:27.148413Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] getting shell
+2020-11-10T09:22:35.229291Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] CMD: exot
+2020-11-10T09:22:35.230512Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Can't find command exot
+2020-11-10T09:22:35.230660Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Command not found: exot
+2020-11-10T09:22:36.674128Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] CMD: exot
+2020-11-10T09:22:36.674971Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Can't find command exot
+2020-11-10T09:22:36.675086Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Command not found: exot
+2020-11-10T09:22:38.774177Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] CMD: exit
+2020-11-10T09:22:38.774753Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Command found: exit 
+2020-11-10T09:22:38.775041Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] exitCode: 0
+2020-11-10T09:22:38.775128Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] sending request b'exit-status'
+2020-11-10T09:22:38.775391Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] Closing TTY Log: var/lib/cowrie/tty/c22e964761f4bad8b07dedb9b340ec180a3141677663f57fe2f648af89db88e7 after 11 seconds
+2020-11-10T09:22:38.775951Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] sending close 0
+2020-11-10T09:22:38.793758Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,7,103.125.43.28] remote close
+2020-11-10T09:22:38.794161Z [HoneyPotSSHTransport,7,103.125.43.28] Got remote error, code 11 reason: b'disconnected by user'
+2020-11-10T09:22:38.794490Z [HoneyPotSSHTransport,7,103.125.43.28] avatar root logging out
+2020-11-10T09:22:38.794570Z [HoneyPotSSHTransport,7,103.125.43.28] connection lost
+2020-11-10T09:22:38.794625Z [HoneyPotSSHTransport,7,103.125.43.28] Connection lost after 15 seconds
+2020-11-10T09:35:25.496208Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:31293 (206.189.93.218:2222) [session: 57722fe4d246]
+2020-11-10T09:35:25.508406Z [HoneyPotSSHTransport,8,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:35:25.531530Z [HoneyPotSSHTransport,8,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:35:25.532691Z [HoneyPotSSHTransport,8,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:35:25.532760Z [HoneyPotSSHTransport,8,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:25.532810Z [HoneyPotSSHTransport,8,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:25.585206Z [HoneyPotSSHTransport,8,103.125.43.28] connection lost
+2020-11-10T09:35:25.585446Z [HoneyPotSSHTransport,8,103.125.43.28] Connection lost after 0 seconds
+2020-11-10T09:35:29.265657Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:10850 (206.189.93.218:2222) [session: ea57e107d3ed]
+2020-11-10T09:35:29.270877Z [HoneyPotSSHTransport,9,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T09:35:29.312401Z [HoneyPotSSHTransport,9,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T09:35:29.313496Z [HoneyPotSSHTransport,9,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:35:29.313559Z [HoneyPotSSHTransport,9,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:29.313606Z [HoneyPotSSHTransport,9,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:31.480147Z [HoneyPotSSHTransport,9,110.138.151.174] NEW KEYS
+2020-11-10T09:35:31.555146Z [HoneyPotSSHTransport,9,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T09:35:31.588192Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] b'skripsi' trying auth b'none'
+2020-11-10T09:35:38.846315Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] b'skripsi' trying auth b'password'
+2020-11-10T09:35:38.847216Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:35:38.847435Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] login attempt [b'skripsi'/b'P@ssW0rd'] failed
+2020-11-10T09:35:39.090806Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:50864 (206.189.93.218:2222) [session: 4ea2ca4eaf92]
+2020-11-10T09:35:39.092163Z [HoneyPotSSHTransport,10,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:35:39.110403Z [HoneyPotSSHTransport,10,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:35:39.112218Z [HoneyPotSSHTransport,10,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:35:39.112336Z [HoneyPotSSHTransport,10,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:39.112415Z [HoneyPotSSHTransport,10,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:39.150050Z [HoneyPotSSHTransport,10,103.125.43.28] NEW KEYS
+2020-11-10T09:35:39.207250Z [HoneyPotSSHTransport,10,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T09:35:39.224168Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,10,103.125.43.28] b'skripsi' trying auth b'none'
+2020-11-10T09:35:39.858438Z [-] b'skripsi' failed auth b'password'
+2020-11-10T09:35:39.862858Z [-] unauthorized login: 
+2020-11-10T09:35:41.715725Z [HoneyPotSSHTransport,10,103.125.43.28] connection lost
+2020-11-10T09:35:41.719084Z [HoneyPotSSHTransport,10,103.125.43.28] Connection lost after 2 seconds
+2020-11-10T09:35:42.931594Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:31303 (206.189.93.218:2222) [session: 659eb60c67ef]
+2020-11-10T09:35:42.933016Z [HoneyPotSSHTransport,11,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:35:42.955457Z [HoneyPotSSHTransport,11,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:35:42.957665Z [HoneyPotSSHTransport,11,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:35:42.957824Z [HoneyPotSSHTransport,11,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:42.957876Z [HoneyPotSSHTransport,11,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:35:43.052970Z [HoneyPotSSHTransport,11,103.125.43.28] connection lost
+2020-11-10T09:35:43.053203Z [HoneyPotSSHTransport,11,103.125.43.28] Connection lost after 0 seconds
+2020-11-10T09:35:46.339503Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] b'skripsi' trying auth b'password'
+2020-11-10T09:35:46.341153Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:35:46.341380Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] login attempt [b'skripsi'/b'P@ssW0rd'] failed
+2020-11-10T09:35:47.343848Z [-] b'skripsi' failed auth b'password'
+2020-11-10T09:35:47.344073Z [-] unauthorized login: 
+2020-11-10T09:35:49.022580Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] b'skripsi' trying auth b'password'
+2020-11-10T09:35:49.022990Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:35:49.023130Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,9,110.138.151.174] login attempt [b'skripsi'/b'l'] failed
+2020-11-10T09:35:50.023973Z [-] b'skripsi' failed auth b'password'
+2020-11-10T09:35:50.024194Z [-] unauthorized login: 
+2020-11-10T09:35:50.076359Z [HoneyPotSSHTransport,9,110.138.151.174] connection lost
+2020-11-10T09:35:50.076599Z [HoneyPotSSHTransport,9,110.138.151.174] Connection lost after 20 seconds
+2020-11-10T09:38:25.003770Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:50903 (206.189.93.218:2222) [session: 16b39054d06f]
+2020-11-10T09:38:25.065661Z [HoneyPotSSHTransport,12,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:38:25.092992Z [HoneyPotSSHTransport,12,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:38:25.094514Z [HoneyPotSSHTransport,12,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:38:25.094695Z [HoneyPotSSHTransport,12,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:38:25.094825Z [HoneyPotSSHTransport,12,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:38:25.147122Z [HoneyPotSSHTransport,12,103.125.43.28] connection lost
+2020-11-10T09:38:25.147377Z [HoneyPotSSHTransport,12,103.125.43.28] Connection lost after 0 seconds
+2020-11-10T09:39:08.954803Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:50907 (206.189.93.218:2222) [session: 2679b2cd9432]
+2020-11-10T09:39:08.974904Z [HoneyPotSSHTransport,13,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:39:09.013093Z [HoneyPotSSHTransport,13,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:39:09.019967Z [HoneyPotSSHTransport,13,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:39:09.020197Z [HoneyPotSSHTransport,13,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:39:09.020319Z [HoneyPotSSHTransport,13,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:39:09.067409Z [HoneyPotSSHTransport,13,103.125.43.28] connection lost
+2020-11-10T09:39:09.067668Z [HoneyPotSSHTransport,13,103.125.43.28] Connection lost after 0 seconds
+2020-11-10T09:40:53.261436Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 140.213.33.218:52101 (206.189.93.218:2222) [session: 2e31dfe117da]
+2020-11-10T09:40:53.267652Z [HoneyPotSSHTransport,14,140.213.33.218] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:40:53.324236Z [HoneyPotSSHTransport,14,140.213.33.218] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:40:53.325408Z [HoneyPotSSHTransport,14,140.213.33.218] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:40:53.325477Z [HoneyPotSSHTransport,14,140.213.33.218] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:40:53.325526Z [HoneyPotSSHTransport,14,140.213.33.218] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:40:54.566096Z [HoneyPotSSHTransport,14,140.213.33.218] NEW KEYS
+2020-11-10T09:40:54.659323Z [HoneyPotSSHTransport,14,140.213.33.218] starting service b'ssh-userauth'
+2020-11-10T09:40:54.745458Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] b'root' trying auth b'none'
+2020-11-10T09:40:59.231345Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:11367 (206.189.93.218:2222) [session: aec36e427401]
+2020-11-10T09:40:59.489135Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:27541 (206.189.93.218:2222) [session: f92884be2913]
+2020-11-10T09:40:59.491071Z [HoneyPotSSHTransport,16,110.138.151.174] Remote SSH version: b'GET / HTTP/1.1'
+2020-11-10T09:40:59.491707Z [HoneyPotSSHTransport,16,110.138.151.174] Bad protocol version identification: b'GET / HTTP/1.1'
+2020-11-10T09:40:59.492095Z [HoneyPotSSHTransport,16,110.138.151.174] connection lost
+2020-11-10T09:40:59.492223Z [HoneyPotSSHTransport,16,110.138.151.174] Connection lost after 0 seconds
+2020-11-10T09:41:00.452393Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] b'root' trying auth b'password'
+2020-11-10T09:41:00.453341Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:41:00.453640Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] login attempt [b'root'/b'passwordasdasdasda'] succeeded
+2020-11-10T09:41:00.454434Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T09:41:00.457068Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] b'root' authenticated with b'password'
+2020-11-10T09:41:00.457393Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,14,140.213.33.218] starting service b'ssh-connection'
+2020-11-10T09:41:00.562410Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] got channel b'session' request
+2020-11-10T09:41:00.566468Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] channel open
+2020-11-10T09:41:00.566784Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] got global b'no-more-sessions@openssh.com' request
+2020-11-10T09:41:00.767549Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] pty request: b'xterm-256color' (30, 120, 640, 480)
+2020-11-10T09:41:00.833901Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Terminal Size: 120 30
+2020-11-10T09:41:00.883924Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] getting shell
+2020-11-10T09:41:08.468851Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: test
+2020-11-10T09:41:08.478563Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command test
+2020-11-10T09:41:08.478745Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: test
+2020-11-10T09:41:15.942449Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: apakah ini masuk
+2020-11-10T09:41:15.966365Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command apakah
+2020-11-10T09:41:15.966629Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: apakah ini masuk
+2020-11-10T09:41:17.851441Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: blah
+2020-11-10T09:41:17.874353Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command blah
+2020-11-10T09:41:17.874607Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: blah
+2020-11-10T09:41:24.734820Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: halo kevin 
+2020-11-10T09:41:25.051636Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command halo
+2020-11-10T09:41:25.125056Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: halo kevin
+2020-11-10T09:41:27.263070Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: halo natan
+2020-11-10T09:41:27.497880Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command halo
+2020-11-10T09:41:27.627063Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: halo natan
+2020-11-10T09:41:30.211437Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: ini gw yohanes
+2020-11-10T09:41:30.426823Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Can't find command ini
+2020-11-10T09:41:30.507722Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command not found: ini gw yohanes
+2020-11-10T09:41:46.782033Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: echo "halo Kevin" > masuknih
+2020-11-10T09:41:46.810983Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command found: echo halo Kevin > masuknih
+2020-11-10T09:41:49.015105Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] CMD: exit
+2020-11-10T09:41:49.173539Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Command found: exit 
+2020-11-10T09:41:49.379622Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] exitCode: 0
+2020-11-10T09:41:49.499427Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] sending request b'exit-status'
+2020-11-10T09:41:49.651785Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Saved redir contents with SHA-256 8d5f171bb68c1012fabef5121d2dea4622566578e2faff0e8f8f7b9daa6ea7d5 to var/lib/cowrie/downloads/8d5f171bb68c1012fabef5121d2dea4622566578e2faff0e8f8f7b9daa6ea7d5
+2020-11-10T09:41:49.860435Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] Closing TTY Log: var/lib/cowrie/tty/059cfeabaa8220d57de8c42a60471ef81c324ca626c649d0f5d9682822ee3cfd after 48 seconds
+2020-11-10T09:41:49.940564Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] sending close 0
+2020-11-10T09:41:50.173287Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,14,140.213.33.218] remote close
+2020-11-10T09:41:50.333838Z [HoneyPotSSHTransport,14,140.213.33.218] Got remote error, code 11 reason: b'disconnected by user'
+2020-11-10T09:41:50.485866Z [HoneyPotSSHTransport,14,140.213.33.218] avatar root logging out
+2020-11-10T09:41:50.640258Z [HoneyPotSSHTransport,14,140.213.33.218] connection lost
+2020-11-10T09:41:50.780028Z [HoneyPotSSHTransport,14,140.213.33.218] Connection lost after 57 seconds
+2020-11-10T09:41:54.769422Z [HoneyPotSSHTransport,15,110.138.151.174] Remote SSH version: b'GET / HTTP/1.1'
+2020-11-10T09:41:54.777517Z [HoneyPotSSHTransport,15,110.138.151.174] Bad protocol version identification: b'GET / HTTP/1.1'
+2020-11-10T09:41:54.781318Z [HoneyPotSSHTransport,15,110.138.151.174] connection lost
+2020-11-10T09:41:54.781579Z [HoneyPotSSHTransport,15,110.138.151.174] Connection lost after 55 seconds
+2020-11-10T09:41:54.822023Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:17497 (206.189.93.218:2222) [session: 2c8371ab5ab0]
+2020-11-10T09:41:59.806134Z [HoneyPotSSHTransport,17,110.138.151.174] Remote SSH version: b'GET / HTTP/1.1'
+2020-11-10T09:42:00.151176Z [HoneyPotSSHTransport,17,110.138.151.174] Bad protocol version identification: b'GET / HTTP/1.1'
+2020-11-10T09:42:00.246727Z [HoneyPotSSHTransport,17,110.138.151.174] connection lost
+2020-11-10T09:42:00.393118Z [HoneyPotSSHTransport,17,110.138.151.174] Connection lost after 5 seconds
+2020-11-10T09:42:00.962863Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:21995 (206.189.93.218:2222) [session: 6d5e3fe5039f]
+2020-11-10T09:43:45.799969Z [HoneyPotSSHTransport,18,110.138.151.174] connection lost
+2020-11-10T09:43:45.884131Z [HoneyPotSSHTransport,18,110.138.151.174] Connection lost after 104 seconds
+2020-11-10T09:44:24.839996Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 45.146.164.239:43850 (206.189.93.218:2222) [session: 2e366d1f48c8]
+2020-11-10T09:44:25.319040Z [HoneyPotSSHTransport,19,45.146.164.239] Remote SSH version: b'SSH-2.0-libssh2_1.9.0'
+2020-11-10T09:44:25.616802Z [HoneyPotSSHTransport,19,45.146.164.239] SSH client hassh fingerprint: 492b943d405cf2ed74d9cc126dfc1fbb
+2020-11-10T09:44:26.341028Z [HoneyPotSSHTransport,19,45.146.164.239] kex alg, key alg: b'ecdh-sha2-nistp256' b'ssh-rsa'
+2020-11-10T09:44:26.416574Z [HoneyPotSSHTransport,19,45.146.164.239] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:44:26.504554Z [HoneyPotSSHTransport,19,45.146.164.239] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:44:27.634255Z [HoneyPotSSHTransport,19,45.146.164.239] NEW KEYS
+2020-11-10T09:44:27.926436Z [HoneyPotSSHTransport,19,45.146.164.239] starting service b'ssh-userauth'
+2020-11-10T09:44:28.374739Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] b'root' trying auth b'none'
+2020-11-10T09:44:28.852778Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] b'root' trying auth b'password'
+2020-11-10T09:44:28.971239Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:44:29.082390Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] login attempt [b'root'/b'root1234'] succeeded
+2020-11-10T09:44:29.182769Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T09:44:29.185308Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] b'root' authenticated with b'password'
+2020-11-10T09:44:29.195190Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,19,45.146.164.239] starting service b'ssh-connection'
+2020-11-10T09:44:29.481624Z [HoneyPotSSHTransport,19,45.146.164.239] Got remote error, code 11 reason: b'Client disconnecting normally'
+2020-11-10T09:44:29.687881Z [HoneyPotSSHTransport,19,45.146.164.239] avatar root logging out
+2020-11-10T09:44:29.792958Z [HoneyPotSSHTransport,19,45.146.164.239] connection lost
+2020-11-10T09:44:29.892954Z [HoneyPotSSHTransport,19,45.146.164.239] Connection lost after 4 seconds
+2020-11-10T09:44:45.799487Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 98.227.126.131:51575 (206.189.93.218:2222) [session: 767193ad4703]
+2020-11-10T09:44:46.092132Z [HoneyPotSSHTransport,20,98.227.126.131] Remote SSH version: b'SSH-2.0-libssh-0.5.2'
+2020-11-10T09:44:47.726985Z [HoneyPotSSHTransport,20,98.227.126.131] connection lost
+2020-11-10T09:44:47.840506Z [HoneyPotSSHTransport,20,98.227.126.131] Connection lost after 2 seconds
+2020-11-10T09:55:43.455202Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51116 (206.189.93.218:2222) [session: 9d1a20f3a468]
+2020-11-10T09:55:43.631184Z [HoneyPotSSHTransport,21,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:55:43.653931Z [HoneyPotSSHTransport,21,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:55:43.655097Z [HoneyPotSSHTransport,21,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:55:43.655170Z [HoneyPotSSHTransport,21,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:55:43.655218Z [HoneyPotSSHTransport,21,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:55:43.707102Z [HoneyPotSSHTransport,21,103.125.43.28] connection lost
+2020-11-10T09:55:43.707335Z [HoneyPotSSHTransport,21,103.125.43.28] Connection lost after 0 seconds
+2020-11-10T09:57:01.981042Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:27914 (206.189.93.218:2222) [session: 3226e7881b67]
+2020-11-10T09:57:02.230710Z [HoneyPotSSHTransport,22,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T09:57:02.468076Z [HoneyPotSSHTransport,22,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T09:57:02.714740Z [HoneyPotSSHTransport,22,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:57:02.715015Z [HoneyPotSSHTransport,22,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:02.715103Z [HoneyPotSSHTransport,22,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:03.231608Z [HoneyPotSSHTransport,22,110.138.151.174] NEW KEYS
+2020-11-10T09:57:04.890503Z [HoneyPotSSHTransport,22,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T09:57:05.468567Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] b'kevin' trying auth b'none'
+2020-11-10T09:57:07.803823Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51130 (206.189.93.218:2222) [session: 40d8b70218a4]
+2020-11-10T09:57:08.789971Z [HoneyPotSSHTransport,23,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:57:08.881340Z [HoneyPotSSHTransport,23,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:57:09.416643Z [HoneyPotSSHTransport,23,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:57:09.521260Z [HoneyPotSSHTransport,23,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:09.622721Z [HoneyPotSSHTransport,23,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:10.320296Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] b'kevin' trying auth b'password'
+2020-11-10T09:57:10.485732Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:57:10.725802Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] login attempt [b'kevin'/b'root'] failed
+2020-11-10T09:57:10.998036Z [HoneyPotSSHTransport,23,103.125.43.28] connection lost
+2020-11-10T09:57:11.111892Z [HoneyPotSSHTransport,23,103.125.43.28] Connection lost after 2 seconds
+2020-11-10T09:57:11.959232Z [-] b'kevin' failed auth b'password'
+2020-11-10T09:57:11.972594Z [-] unauthorized login: 
+2020-11-10T09:57:13.678460Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] b'kevin' trying auth b'password'
+2020-11-10T09:57:13.681321Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:57:13.681572Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] login attempt [b'kevin'/b''] failed
+2020-11-10T09:57:14.683971Z [-] b'kevin' failed auth b'password'
+2020-11-10T09:57:14.684192Z [-] unauthorized login: 
+2020-11-10T09:57:36.657150Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] b'kevin' trying auth b'password'
+2020-11-10T09:57:36.840796Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:57:36.953732Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,22,110.138.151.174] login attempt [b'kevin'/b'P@ssW0rd'] failed
+2020-11-10T09:57:39.125515Z [-] b'kevin' failed auth b'password'
+2020-11-10T09:57:39.238493Z [-] unauthorized login: 
+2020-11-10T09:57:39.795089Z [HoneyPotSSHTransport,22,110.138.151.174] connection lost
+2020-11-10T09:57:39.901158Z [HoneyPotSSHTransport,22,110.138.151.174] Connection lost after 37 seconds
+2020-11-10T09:57:51.349005Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:15296 (206.189.93.218:2222) [session: cc30c9a505eb]
+2020-11-10T09:57:51.698566Z [HoneyPotSSHTransport,24,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T09:57:51.749348Z [HoneyPotSSHTransport,24,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T09:57:51.750508Z [HoneyPotSSHTransport,24,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:57:51.750578Z [HoneyPotSSHTransport,24,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:51.750627Z [HoneyPotSSHTransport,24,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:57:52.818406Z [HoneyPotSSHTransport,24,110.138.151.174] NEW KEYS
+2020-11-10T09:57:53.138581Z [HoneyPotSSHTransport,24,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T09:57:53.461725Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,24,110.138.151.174] b'kevin' trying auth b'none'
+2020-11-10T09:58:36.415771Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51141 (206.189.93.218:2222) [session: 2a897c7a2c51]
+2020-11-10T09:58:36.818204Z [HoneyPotSSHTransport,25,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:58:37.303511Z [HoneyPotSSHTransport,25,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:58:38.155492Z [HoneyPotSSHTransport,25,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:58:38.243038Z [HoneyPotSSHTransport,25,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:58:38.318782Z [HoneyPotSSHTransport,25,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:58:38.985601Z [HoneyPotSSHTransport,25,103.125.43.28] connection lost
+2020-11-10T09:58:39.090027Z [HoneyPotSSHTransport,25,103.125.43.28] Connection lost after 2 seconds
+2020-11-10T09:59:28.536983Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51154 (206.189.93.218:2222) [session: 1abd0529ebce]
+2020-11-10T09:59:29.474728Z [HoneyPotSSHTransport,26,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T09:59:29.497107Z [HoneyPotSSHTransport,26,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T09:59:29.498265Z [HoneyPotSSHTransport,26,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T09:59:29.498334Z [HoneyPotSSHTransport,26,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:59:29.498382Z [HoneyPotSSHTransport,26,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T09:59:33.828442Z [HoneyPotSSHTransport,26,103.125.43.28] NEW KEYS
+2020-11-10T09:59:33.989010Z [HoneyPotSSHTransport,26,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T09:59:34.177930Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,26,103.125.43.28] b'nat' trying auth b'none'
+2020-11-10T09:59:39.586888Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,26,103.125.43.28] b'nat' trying auth b'password'
+2020-11-10T09:59:39.846493Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,26,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T09:59:40.010197Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,26,103.125.43.28] login attempt [b'nat'/b'P@ssW0rd'] failed
+2020-11-10T09:59:41.332273Z [-] b'nat' failed auth b'password'
+2020-11-10T09:59:41.453701Z [-] unauthorized login: 
+2020-11-10T09:59:51.725637Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T09:59:51.922278Z [HoneyPotSSHTransport,24,110.138.151.174] connection lost
+2020-11-10T09:59:52.083443Z [HoneyPotSSHTransport,24,110.138.151.174] Connection lost after 120 seconds
+2020-11-10T10:00:09.160846Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:20022 (206.189.93.218:2222) [session: 53b8b37017e7]
+2020-11-10T10:00:09.172355Z [HoneyPotSSHTransport,27,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T10:00:09.286720Z [HoneyPotSSHTransport,27,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T10:00:09.469804Z [HoneyPotSSHTransport,27,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T10:00:09.562610Z [HoneyPotSSHTransport,27,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:00:09.689162Z [HoneyPotSSHTransport,27,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:00:10.644889Z [HoneyPotSSHTransport,27,110.138.151.174] NEW KEYS
+2020-11-10T10:00:11.838022Z [HoneyPotSSHTransport,27,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T10:00:12.318136Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,27,110.138.151.174] b'kevin' trying auth b'none'
+2020-11-10T10:01:21.341364Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:9766 (206.189.93.218:2222) [session: 7e035df9ccda]
+2020-11-10T10:01:21.582226Z [HoneyPotSSHTransport,28,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T10:01:21.683770Z [HoneyPotSSHTransport,28,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T10:01:21.831364Z [HoneyPotSSHTransport,28,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T10:01:21.839172Z [HoneyPotSSHTransport,28,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:01:21.839354Z [HoneyPotSSHTransport,28,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:01:22.323543Z [HoneyPotSSHTransport,28,110.138.151.174] NEW KEYS
+2020-11-10T10:01:22.500979Z [HoneyPotSSHTransport,28,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T10:01:23.135798Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] b'root' trying auth b'none'
+2020-11-10T10:01:29.510459Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T10:01:29.646924Z [HoneyPotSSHTransport,26,103.125.43.28] connection lost
+2020-11-10T10:01:29.803807Z [HoneyPotSSHTransport,26,103.125.43.28] Connection lost after 120 seconds
+2020-11-10T10:01:34.160907Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] b'root' trying auth b'password'
+2020-11-10T10:01:34.234881Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:01:34.308734Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] login attempt [b'root'/b'kasdkasdksadk'] succeeded
+2020-11-10T10:01:34.332100Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T10:01:34.341068Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] b'root' authenticated with b'password'
+2020-11-10T10:01:34.384120Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,28,110.138.151.174] starting service b'ssh-connection'
+2020-11-10T10:01:35.162363Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] got channel b'session' request
+2020-11-10T10:01:35.460166Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] channel open
+2020-11-10T10:01:35.604698Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] got global b'no-more-sessions@openssh.com' request
+2020-11-10T10:01:36.066481Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] ERROR: Failed to load filesystem
+	Traceback (most recent call last):
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/components.py", line 105, in _hook
+	    return factory(ob)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/session.py", line 45, in __init__
+	    self.server.initFileSystem(self.avatar.home)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/server.py", line 76, in initFileSystem
+	    self.fs = fs.HoneyPotFilesystem(None, self.arch, home)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/fs.py", line 84, in __init__
+	    log.err(e, "ERROR: Failed to load filesystem")
+	--- <exception caught here> ---
+	  File "/home/cowrie/cowrie/src/cowrie/shell/fs.py", line 79, in __init__
+	    self.fs = pickle.load(f)
+	builtins.MemoryError: 
+	
+2020-11-10T10:01:36.461529Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Unhandled Error
+	Traceback (most recent call last):
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/context.py", line 85, in callWithContext
+	    return func(*args,**kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/conch/ssh/service.py", line 45, in packetReceived
+	    return f(packet)
+	  File "/home/cowrie/cowrie/src/cowrie/ssh/connection.py", line 64, in ssh_CHANNEL_REQUEST
+	    rest[1:])
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 151, in maybeDeferred
+	    result = f(*args, **kw)
+	--- <exception caught here> ---
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/log.py", line 103, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/log.py", line 86, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/context.py", line 122, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/context.py", line 85, in callWithContext
+	    return func(*args,**kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/conch/ssh/channel.py", line 162, in requestReceived
+	    return f(data)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/conch/ssh/session.py", line 83, in request_pty_req
+	    self.session = ISession(self.avatar)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python3.6/site-packages/twisted/python/components.py", line 105, in _hook
+	    return factory(ob)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/session.py", line 45, in __init__
+	    self.server.initFileSystem(self.avatar.home)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/server.py", line 76, in initFileSystem
+	    self.fs = fs.HoneyPotFilesystem(None, self.arch, home)
+	  File "/home/cowrie/cowrie/src/cowrie/shell/fs.py", line 85, in __init__
+	    exit(2)
+	  File "/home/cowrie/cowrie/cowrie-env/lib/python3.6/site.py", line 403, in __call__
+	    raise SystemExit(code)
+	builtins.SystemExit: 2
+	
+2020-11-10T10:01:37.307236Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] getting shell
+2020-11-10T10:01:48.716731Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51195 (206.189.93.218:2222) [session: 5e7c976ea4cb]
+2020-11-10T10:01:48.724394Z [HoneyPotSSHTransport,29,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T10:01:48.767061Z [HoneyPotSSHTransport,29,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T10:01:48.805861Z [HoneyPotSSHTransport,29,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T10:01:48.806124Z [HoneyPotSSHTransport,29,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:01:48.806204Z [HoneyPotSSHTransport,29,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:01:48.849980Z [HoneyPotSSHTransport,29,103.125.43.28] NEW KEYS
+2020-11-10T10:01:48.974323Z [HoneyPotSSHTransport,29,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T10:01:49.005866Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] b'nat' trying auth b'none'
+2020-11-10T10:01:51.600270Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] b'nat' trying auth b'password'
+2020-11-10T10:01:51.615060Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:01:51.615562Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] login attempt [b'nat'/b'sdsd'] failed
+2020-11-10T10:01:52.635343Z [-] b'nat' failed auth b'password'
+2020-11-10T10:01:52.678582Z [-] unauthorized login: 
+2020-11-10T10:01:57.308684Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] b'nat' trying auth b'password'
+2020-11-10T10:01:57.325806Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:01:57.326148Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] login attempt [b'nat'/b''] failed
+2020-11-10T10:01:58.347955Z [-] b'nat' failed auth b'password'
+2020-11-10T10:01:58.356895Z [-] unauthorized login: 
+2020-11-10T10:02:03.186447Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] b'nat' trying auth b'password'
+2020-11-10T10:02:03.201508Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:02:03.201856Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,29,103.125.43.28] login attempt [b'nat'/b'password'] failed
+2020-11-10T10:02:04.227320Z [-] b'nat' failed auth b'password'
+2020-11-10T10:02:04.236803Z [-] unauthorized login: 
+2020-11-10T10:02:04.265689Z [HoneyPotSSHTransport,29,103.125.43.28] connection lost
+2020-11-10T10:02:04.265954Z [HoneyPotSSHTransport,29,103.125.43.28] Connection lost after 15 seconds
+2020-11-10T10:02:09.184545Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T10:02:09.199649Z [HoneyPotSSHTransport,27,110.138.151.174] connection lost
+2020-11-10T10:02:09.200144Z [HoneyPotSSHTransport,27,110.138.151.174] Connection lost after 120 seconds
+2020-11-10T10:02:09.227965Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: abcd
+2020-11-10T10:02:09.231268Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Can't find command abcd
+2020-11-10T10:02:09.231529Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command not found: abcd
+2020-11-10T10:02:12.006137Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: 
+2020-11-10T10:02:13.150105Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: ls
+2020-11-10T10:02:13.160544Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: ls 
+2020-11-10T10:02:14.772365Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: ls
+2020-11-10T10:02:14.784943Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: ls 
+2020-11-10T10:02:18.177205Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: ufw status
+2020-11-10T10:02:18.190574Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Can't find command ufw
+2020-11-10T10:02:18.190763Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command not found: ufw status
+2020-11-10T10:02:27.237401Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51199 (206.189.93.218:2222) [session: 4034c4584200]
+2020-11-10T10:02:27.260783Z [HoneyPotSSHTransport,30,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T10:02:27.307331Z [HoneyPotSSHTransport,30,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T10:02:27.323286Z [HoneyPotSSHTransport,30,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T10:02:27.323461Z [HoneyPotSSHTransport,30,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:02:27.323530Z [HoneyPotSSHTransport,30,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:02:27.378992Z [HoneyPotSSHTransport,30,103.125.43.28] NEW KEYS
+2020-11-10T10:02:27.464650Z [HoneyPotSSHTransport,30,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T10:02:27.495422Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,30,103.125.43.28] b'nat' trying auth b'none'
+2020-11-10T10:02:28.129134Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,30,103.125.43.28] b'nat' trying auth b'password'
+2020-11-10T10:02:28.148840Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,30,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:02:28.149618Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,30,103.125.43.28] login attempt [b'nat'/b''] failed
+2020-11-10T10:02:28.629352Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: sudo 
+2020-11-10T10:02:28.640478Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: sudo 
+2020-11-10T10:02:29.168521Z [-] b'nat' failed auth b'password'
+2020-11-10T10:02:29.179042Z [-] unauthorized login: 
+2020-11-10T10:02:31.110628Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: sudo -v
+2020-11-10T10:02:31.125111Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: sudo -v
+2020-11-10T10:02:31.127825Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Can't find command -v
+2020-11-10T10:02:43.942976Z [HoneyPotSSHTransport,30,103.125.43.28] connection lost
+2020-11-10T10:02:43.991299Z [HoneyPotSSHTransport,30,103.125.43.28] Connection lost after 16 seconds
+2020-11-10T10:02:49.171441Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.125.43.28:51202 (206.189.93.218:2222) [session: b4fd6afd8cb6]
+2020-11-10T10:02:49.181110Z [HoneyPotSSHTransport,31,103.125.43.28] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.7'
+2020-11-10T10:02:49.254188Z [HoneyPotSSHTransport,31,103.125.43.28] SSH client hassh fingerprint: 2dd6531c7e89d3c925db9214711be76a
+2020-11-10T10:02:49.437723Z [HoneyPotSSHTransport,31,103.125.43.28] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T10:02:49.438036Z [HoneyPotSSHTransport,31,103.125.43.28] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:02:49.438180Z [HoneyPotSSHTransport,31,103.125.43.28] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T10:02:49.483329Z [HoneyPotSSHTransport,31,103.125.43.28] NEW KEYS
+2020-11-10T10:02:49.498517Z [HoneyPotSSHTransport,31,103.125.43.28] starting service b'ssh-userauth'
+2020-11-10T10:02:49.517114Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] b'root' trying auth b'none'
+2020-11-10T10:02:49.604198Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: sudo
+2020-11-10T10:02:49.614356Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: sudo 
+2020-11-10T10:02:50.262149Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] b'root' trying auth b'password'
+2020-11-10T10:02:50.274177Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:02:50.274778Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] login attempt [b'root'/b''] succeeded
+2020-11-10T10:02:50.276237Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T10:02:50.277375Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] b'root' authenticated with b'password'
+2020-11-10T10:02:50.277664Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,31,103.125.43.28] starting service b'ssh-connection'
+2020-11-10T10:02:50.295702Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] got channel b'session' request
+2020-11-10T10:02:50.296101Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] channel open
+2020-11-10T10:02:50.296257Z [SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] got global b'no-more-sessions@openssh.com' request
+2020-11-10T10:02:50.663590Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] pty request: b'xterm-256color' (30, 120, 640, 480)
+2020-11-10T10:02:50.782030Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] Terminal Size: 120 30
+2020-11-10T10:02:51.237179Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] getting shell
+2020-11-10T10:02:53.347973Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: sudo ls
+2020-11-10T10:02:53.371716Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: sudo ls
+2020-11-10T10:02:55.933397Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] CMD: asd
+2020-11-10T10:02:56.012217Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] Can't find command asd
+2020-11-10T10:02:56.013402Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] Command not found: asd
+2020-11-10T10:02:58.235425Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: 
+2020-11-10T10:02:59.085750Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] CMD: pwd
+2020-11-10T10:02:59.755901Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] Command found: pwd 
+2020-11-10T10:03:02.057940Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: sudo 
+2020-11-10T10:03:02.103723Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: sudo 
+2020-11-10T10:03:03.809426Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: ls
+2020-11-10T10:03:03.973952Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: ls 
+2020-11-10T10:03:06.838001Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: cd 
+2020-11-10T10:03:06.983562Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: cd 
+2020-11-10T10:03:08.817369Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: cd ..
+2020-11-10T10:03:09.074634Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: cd ..
+2020-11-10T10:04:02.299363Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: help
+2020-11-10T10:04:02.476490Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: help 
+2020-11-10T10:04:05.344153Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: help
+2020-11-10T10:04:05.972732Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: help 
+2020-11-10T10:04:12.966967Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: h
+2020-11-10T10:04:13.448351Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Can't find command h
+2020-11-10T10:04:13.462837Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command not found: h
+2020-11-10T10:04:18.261683Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] CMD: echo "hi"
+2020-11-10T10:04:19.514908Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Command found: echo hi
+2020-11-10T10:04:34.403717Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T10:04:34.856563Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,28,110.138.151.174] Closing TTY Log: var/lib/cowrie/tty/f21ad53d07d82f23a59090206d316cc04dbf85b06b3a0adb6cfa15eaa9f3204c after 177 seconds
+2020-11-10T10:04:34.860142Z [HoneyPotSSHTransport,28,110.138.151.174] avatar root logging out
+2020-11-10T10:04:34.860265Z [HoneyPotSSHTransport,28,110.138.151.174] connection lost
+2020-11-10T10:04:34.860350Z [HoneyPotSSHTransport,28,110.138.151.174] Connection lost after 193 seconds
+2020-11-10T10:05:50.368996Z [-] Timeout reached in HoneyPotSSHTransport
+2020-11-10T10:05:50.622381Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,31,103.125.43.28] Closing TTY Log: var/lib/cowrie/tty/d2cc57c8494ad4c534396824c1b98224af02947fd04a6d536fcc27a51c4278ae after 179 seconds
+2020-11-10T10:05:52.085781Z [HoneyPotSSHTransport,31,103.125.43.28] avatar root logging out
+2020-11-10T10:05:52.120872Z [HoneyPotSSHTransport,31,103.125.43.28] connection lost
+2020-11-10T10:05:52.122810Z [HoneyPotSSHTransport,31,103.125.43.28] Connection lost after 182 seconds
+2020-11-10T10:31:57.789256Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 185.96.55.121:40684 (206.189.93.218:2223) [session: f3c98645629a]
+2020-11-10T10:32:29.391890Z [CowrieTelnetTransport,0,185.96.55.121] Connection lost after 31 seconds
+2020-11-10T10:35:07.359567Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:55893 (206.189.93.218:2223) [session: ba9ae4035295]
+2020-11-10T10:35:20.289507Z [CowrieTelnetTransport,1,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:35:23.381816Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:56104 (206.189.93.218:2223) [session: 07ba8be850f9]
+2020-11-10T10:35:36.208875Z [CowrieTelnetTransport,2,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:35:45.325629Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:56371 (206.189.93.218:2223) [session: 31f28cd2266c]
+2020-11-10T10:35:58.243073Z [CowrieTelnetTransport,3,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:36:01.326733Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:56660 (206.189.93.218:2223) [session: 760385fbef01]
+2020-11-10T10:36:14.288959Z [CowrieTelnetTransport,4,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:36:14.368977Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:56906 (206.189.93.218:2223) [session: 7bc0cb656834]
+2020-11-10T10:36:27.242073Z [CowrieTelnetTransport,5,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:36:27.322831Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:57084 (206.189.93.218:2223) [session: a552eaeff2ae]
+2020-11-10T10:36:40.328113Z [CowrieTelnetTransport,6,117.251.58.41] Connection lost after 13 seconds
+2020-11-10T10:36:40.409917Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:57253 (206.189.93.218:2223) [session: b2ed1f9471a4]
+2020-11-10T10:36:53.252438Z [CowrieTelnetTransport,7,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:36:56.355159Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 117.251.58.41:57458 (206.189.93.218:2223) [session: 85ce72e02257]
+2020-11-10T10:37:09.278499Z [CowrieTelnetTransport,8,117.251.58.41] Connection lost after 12 seconds
+2020-11-10T10:55:31.910243Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 2.188.94.5:41130 (206.189.93.218:2223) [session: 4b6db568f182]
+2020-11-10T10:55:31.941491Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 2.188.94.5:41131 (206.189.93.218:2223) [session: 6ff9db0dbca1]
+2020-11-10T10:55:33.015670Z [CowrieTelnetTransport,9,2.188.94.5] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:55:33.015984Z [CowrieTelnetTransport,9,2.188.94.5] login attempt [b'root'/b'user'] succeeded
+2020-11-10T10:55:33.016495Z [CowrieTelnetTransport,9,2.188.94.5] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T10:55:33.074018Z [CowrieTelnetTransport,9,2.188.94.5] Warning: state changed and new state returned
+2020-11-10T10:55:33.155664Z [CowrieTelnetTransport,10,2.188.94.5] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:55:33.155923Z [CowrieTelnetTransport,10,2.188.94.5] login attempt [b'admin'/b'12345'] failed
+2020-11-10T10:55:33.156456Z [CowrieTelnetTransport,10,2.188.94.5] Warning: state changed and new state returned
+2020-11-10T10:55:33.423954Z [CowrieTelnetTransport,9,2.188.94.5] CMD: enable
+2020-11-10T10:55:33.425423Z [CowrieTelnetTransport,9,2.188.94.5] Command found: enable 
+2020-11-10T10:55:33.425696Z [CowrieTelnetTransport,9,2.188.94.5] Reading txtcmd from "share/cowrie/txtcmds/bin/enable"
+2020-11-10T10:55:33.426484Z [CowrieTelnetTransport,9,2.188.94.5] CMD: system
+2020-11-10T10:55:33.427230Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command system
+2020-11-10T10:55:33.427313Z [CowrieTelnetTransport,9,2.188.94.5] Command not found: system
+2020-11-10T10:55:33.430811Z [CowrieTelnetTransport,9,2.188.94.5] CMD: shell
+2020-11-10T10:55:33.431517Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command shell
+2020-11-10T10:55:33.431666Z [CowrieTelnetTransport,9,2.188.94.5] Command not found: shell
+2020-11-10T10:55:33.432667Z [CowrieTelnetTransport,9,2.188.94.5] CMD: sh
+2020-11-10T10:55:33.433195Z [CowrieTelnetTransport,9,2.188.94.5] Command found: sh 
+2020-11-10T10:55:33.785534Z [CowrieTelnetTransport,9,2.188.94.5] CMD: cat /proc/mounts; /bin/busybox EXEOJ
+2020-11-10T10:55:33.786147Z [CowrieTelnetTransport,9,2.188.94.5] Command found: cat /proc/mounts
+2020-11-10T10:55:33.787200Z [CowrieTelnetTransport,9,2.188.94.5] Command found: /bin/busybox EXEOJ
+2020-11-10T10:55:33.787598Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command EXEOJ
+2020-11-10T10:55:34.142132Z [CowrieTelnetTransport,9,2.188.94.5] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox EXEOJ
+2020-11-10T10:55:34.142792Z [CowrieTelnetTransport,9,2.188.94.5] Command found: cd /dev/shm
+2020-11-10T10:55:34.143070Z [CowrieTelnetTransport,9,2.188.94.5] Command found: cat .s
+2020-11-10T10:55:34.143368Z [CowrieTelnetTransport,9,2.188.94.5] Command found: cp /bin/echo .s
+2020-11-10T10:55:34.145271Z [CowrieTelnetTransport,9,2.188.94.5] Command found: /bin/busybox EXEOJ
+2020-11-10T10:55:34.145741Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command EXEOJ
+2020-11-10T10:55:34.364635Z [CowrieTelnetTransport,10,2.188.94.5] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:55:34.364872Z [CowrieTelnetTransport,10,2.188.94.5] login attempt [b'admin'/b'1111'] failed
+2020-11-10T10:55:34.365480Z [CowrieTelnetTransport,10,2.188.94.5] Warning: state changed and new state returned
+2020-11-10T10:55:34.506460Z [CowrieTelnetTransport,9,2.188.94.5] CMD: tftp; wget; /bin/busybox EXEOJ
+2020-11-10T10:55:34.507085Z [CowrieTelnetTransport,9,2.188.94.5] Command found: tftp 
+2020-11-10T10:55:34.508979Z [CowrieTelnetTransport,9,2.188.94.5] Command found: wget 
+2020-11-10T10:55:34.509269Z [CowrieTelnetTransport,9,2.188.94.5] Command found: /bin/busybox EXEOJ
+2020-11-10T10:55:34.509692Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command EXEOJ
+2020-11-10T10:55:34.862119Z [CowrieTelnetTransport,9,2.188.94.5] CMD: dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+2020-11-10T10:55:34.862997Z [CowrieTelnetTransport,9,2.188.94.5] Command found: dd bs=52 count=1 if=.s
+2020-11-10T10:55:34.868650Z [CowrieTelnetTransport,9,2.188.94.5] Command found: cat .s
+2020-11-10T10:55:34.869394Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command while
+2020-11-10T10:55:34.869508Z [CowrieTelnetTransport,9,2.188.94.5] Command not found: while read i
+2020-11-10T10:55:34.870013Z [CowrieTelnetTransport,9,2.188.94.5] Command found: do echo $i
+2020-11-10T10:55:34.870238Z [CowrieTelnetTransport,9,2.188.94.5] Command found: done < .s
+2020-11-10T10:55:35.229238Z [CowrieTelnetTransport,9,2.188.94.5] CMD: /bin/busybox EXEOJ
+2020-11-10T10:55:35.229869Z [CowrieTelnetTransport,9,2.188.94.5] Command found: /bin/busybox EXEOJ
+2020-11-10T10:55:35.230344Z [CowrieTelnetTransport,9,2.188.94.5] Can't find command EXEOJ
+2020-11-10T10:55:35.231071Z [CowrieTelnetTransport,9,2.188.94.5] CMD: rm .s; exit
+2020-11-10T10:55:35.231519Z [CowrieTelnetTransport,9,2.188.94.5] Command found: rm .s
+2020-11-10T10:55:35.234129Z [CowrieTelnetTransport,9,2.188.94.5] Command found: exit 
+2020-11-10T10:55:35.234468Z [CowrieTelnetTransport,9,2.188.94.5] Process ended. Telnet Session disconnected: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ProcessDone'>: A process has ended without apparent errors: process finished with exit code 0.
+	]
+2020-11-10T10:55:35.234685Z [CowrieTelnetTransport,9,2.188.94.5] QUEUED INPUT: q
+2020-11-10T10:55:35.239116Z [CowrieTelnetTransport,9,2.188.94.5] Closing TTY Log: var/lib/cowrie/tty/6b537f05da76fe8ed7baa08b3b71246bb8160daca822121f2ebde66a19290021 after 2 seconds
+2020-11-10T10:55:35.247843Z [CowrieTelnetTransport,9,2.188.94.5] Connection lost after 3 seconds
+2020-11-10T10:55:35.572630Z [CowrieTelnetTransport,10,2.188.94.5] Could not read etc/userdb.txt, default database activated
+2020-11-10T10:55:35.572882Z [CowrieTelnetTransport,10,2.188.94.5] login attempt [b'root'/b'realtek'] succeeded
+2020-11-10T10:55:35.573370Z [CowrieTelnetTransport,10,2.188.94.5] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T10:55:35.754547Z [CowrieTelnetTransport,10,2.188.94.5] Warning: state changed and new state returned
+2020-11-10T10:55:36.143679Z [CowrieTelnetTransport,10,2.188.94.5] CMD: enable
+2020-11-10T10:55:36.144576Z [CowrieTelnetTransport,10,2.188.94.5] Command found: enable 
+2020-11-10T10:55:36.144772Z [CowrieTelnetTransport,10,2.188.94.5] Reading txtcmd from "share/cowrie/txtcmds/bin/enable"
+2020-11-10T10:55:36.145196Z [CowrieTelnetTransport,10,2.188.94.5] CMD: system
+2020-11-10T10:55:36.145789Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command system
+2020-11-10T10:55:36.145864Z [CowrieTelnetTransport,10,2.188.94.5] Command not found: system
+2020-11-10T10:55:36.146394Z [CowrieTelnetTransport,10,2.188.94.5] CMD: shell
+2020-11-10T10:55:36.146948Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command shell
+2020-11-10T10:55:36.147018Z [CowrieTelnetTransport,10,2.188.94.5] Command not found: shell
+2020-11-10T10:55:36.147573Z [CowrieTelnetTransport,10,2.188.94.5] CMD: sh
+2020-11-10T10:55:36.152103Z [CowrieTelnetTransport,10,2.188.94.5] Command found: sh 
+2020-11-10T10:55:36.541356Z [CowrieTelnetTransport,10,2.188.94.5] CMD: cat /proc/mounts; /bin/busybox MQAJD
+2020-11-10T10:55:36.541966Z [CowrieTelnetTransport,10,2.188.94.5] Command found: cat /proc/mounts
+2020-11-10T10:55:36.542619Z [CowrieTelnetTransport,10,2.188.94.5] Command found: /bin/busybox MQAJD
+2020-11-10T10:55:36.543002Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command MQAJD
+2020-11-10T10:55:36.935490Z [CowrieTelnetTransport,10,2.188.94.5] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox MQAJD
+2020-11-10T10:55:36.936529Z [CowrieTelnetTransport,10,2.188.94.5] Command found: cd /dev/shm
+2020-11-10T10:55:36.936980Z [CowrieTelnetTransport,10,2.188.94.5] Command found: cat .s
+2020-11-10T10:55:36.937469Z [CowrieTelnetTransport,10,2.188.94.5] Command found: cp /bin/echo .s
+2020-11-10T10:55:36.938042Z [CowrieTelnetTransport,10,2.188.94.5] Command found: /bin/busybox MQAJD
+2020-11-10T10:55:36.938599Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command MQAJD
+2020-11-10T10:55:37.328041Z [CowrieTelnetTransport,10,2.188.94.5] CMD: tftp; wget; /bin/busybox MQAJD
+2020-11-10T10:55:37.328655Z [CowrieTelnetTransport,10,2.188.94.5] Command found: tftp 
+2020-11-10T10:55:37.329413Z [CowrieTelnetTransport,10,2.188.94.5] Command found: wget 
+2020-11-10T10:55:37.329687Z [CowrieTelnetTransport,10,2.188.94.5] Command found: /bin/busybox MQAJD
+2020-11-10T10:55:37.330055Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command MQAJD
+2020-11-10T10:55:37.720808Z [CowrieTelnetTransport,10,2.188.94.5] CMD: dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+2020-11-10T10:55:37.721482Z [CowrieTelnetTransport,10,2.188.94.5] Command found: dd bs=52 count=1 if=.s
+2020-11-10T10:55:37.722051Z [CowrieTelnetTransport,10,2.188.94.5] Command found: cat .s
+2020-11-10T10:55:37.722659Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command while
+2020-11-10T10:55:37.722761Z [CowrieTelnetTransport,10,2.188.94.5] Command not found: while read i
+2020-11-10T10:55:37.723162Z [CowrieTelnetTransport,10,2.188.94.5] Command found: do echo $i
+2020-11-10T10:55:37.723315Z [CowrieTelnetTransport,10,2.188.94.5] Command found: done < .s
+2020-11-10T10:55:38.112826Z [CowrieTelnetTransport,10,2.188.94.5] CMD: /bin/busybox MQAJD
+2020-11-10T10:55:38.113468Z [CowrieTelnetTransport,10,2.188.94.5] Command found: /bin/busybox MQAJD
+2020-11-10T10:55:38.113897Z [CowrieTelnetTransport,10,2.188.94.5] Can't find command MQAJD
+2020-11-10T10:55:38.114533Z [CowrieTelnetTransport,10,2.188.94.5] CMD: rm .s; exit
+2020-11-10T10:55:38.114973Z [CowrieTelnetTransport,10,2.188.94.5] Command found: rm .s
+2020-11-10T10:55:38.115207Z [CowrieTelnetTransport,10,2.188.94.5] Command found: exit 
+2020-11-10T10:55:38.115380Z [CowrieTelnetTransport,10,2.188.94.5] Process ended. Telnet Session disconnected: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ProcessDone'>: A process has ended without apparent errors: process finished with exit code 0.
+	]
+2020-11-10T10:55:38.115563Z [CowrieTelnetTransport,10,2.188.94.5] QUEUED INPUT: q
+2020-11-10T10:55:38.119083Z [CowrieTelnetTransport,10,2.188.94.5] Closing TTY Log: var/lib/cowrie/tty/96d0eac3b086e7640c608673af1afc9020a39e3286d3aec2f9af591879dc899d after 2 seconds
+2020-11-10T10:55:38.127996Z [CowrieTelnetTransport,10,2.188.94.5] Connection lost after 6 seconds
+2020-11-10T10:58:29.321364Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:45579 (206.189.93.218:2223) [session: 9e6af7a2ce20]
+2020-11-10T10:58:42.073455Z [CowrieTelnetTransport,11,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:58:42.084016Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:45881 (206.189.93.218:2223) [session: 21ffa0d07645]
+2020-11-10T10:58:54.764192Z [CowrieTelnetTransport,12,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:58:55.065275Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:46211 (206.189.93.218:2223) [session: 51f185f78c61]
+2020-11-10T10:59:07.760518Z [CowrieTelnetTransport,13,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:59:08.063035Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:46524 (206.189.93.218:2223) [session: ea0561087255]
+2020-11-10T10:59:20.777004Z [CowrieTelnetTransport,14,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:59:22.049311Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:46851 (206.189.93.218:2223) [session: 9aea34ee9a99]
+2020-11-10T10:59:34.738751Z [CowrieTelnetTransport,15,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:59:36.055664Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:47199 (206.189.93.218:2223) [session: 79b24d1e5479]
+2020-11-10T10:59:48.782206Z [CowrieTelnetTransport,16,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T10:59:51.059662Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:47542 (206.189.93.218:2223) [session: 0a6c29fe5c74]
+2020-11-10T11:00:03.782176Z [CowrieTelnetTransport,17,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:00:05.087863Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:47902 (206.189.93.218:2223) [session: f13935c150df]
+2020-11-10T11:00:17.819191Z [CowrieTelnetTransport,18,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:00:18.124262Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:48241 (206.189.93.218:2223) [session: e7541fe9c243]
+2020-11-10T11:00:30.834112Z [CowrieTelnetTransport,19,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:00:31.125066Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:48579 (206.189.93.218:2223) [session: 14994d2fdea5]
+2020-11-10T11:00:43.792728Z [CowrieTelnetTransport,20,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:00:44.104160Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:48908 (206.189.93.218:2223) [session: b769d2e2b00a]
+2020-11-10T11:00:56.795451Z [CowrieTelnetTransport,21,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:00:58.105877Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:49231 (206.189.93.218:2223) [session: 7f67f2960121]
+2020-11-10T11:01:10.810265Z [CowrieTelnetTransport,22,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:01:11.071414Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:49582 (206.189.93.218:2223) [session: e61574c7f22e]
+2020-11-10T11:01:23.767141Z [CowrieTelnetTransport,23,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:01:24.101208Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:49902 (206.189.93.218:2223) [session: c4279b5deb10]
+2020-11-10T11:01:36.805716Z [CowrieTelnetTransport,24,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:01:39.129301Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:50224 (206.189.93.218:2223) [session: ec7567a0821d]
+2020-11-10T11:01:51.771851Z [CowrieTelnetTransport,25,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:01:52.079363Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:50600 (206.189.93.218:2223) [session: be69d442a6aa]
+2020-11-10T11:02:04.785119Z [CowrieTelnetTransport,26,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:02:05.092903Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:50916 (206.189.93.218:2223) [session: f59032bc9bc3]
+2020-11-10T11:02:17.827984Z [CowrieTelnetTransport,27,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:02:18.128596Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:51243 (206.189.93.218:2223) [session: 23b3b627edc6]
+2020-11-10T11:02:30.766075Z [CowrieTelnetTransport,28,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:02:31.062618Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:51566 (206.189.93.218:2223) [session: ad9190ec6622]
+2020-11-10T11:02:43.795733Z [CowrieTelnetTransport,29,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:02:44.114350Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:51901 (206.189.93.218:2223) [session: 65fbd94cdfe7]
+2020-11-10T11:02:56.799842Z [CowrieTelnetTransport,30,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:02:58.087409Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:52232 (206.189.93.218:2223) [session: b193c5cf4554]
+2020-11-10T11:03:10.782822Z [CowrieTelnetTransport,31,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:03:11.158609Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:52580 (206.189.93.218:2223) [session: 26a0441186a6]
+2020-11-10T11:03:23.776453Z [CowrieTelnetTransport,32,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:03:24.067428Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:52885 (206.189.93.218:2223) [session: 0ac789c56afc]
+2020-11-10T11:03:36.784609Z [CowrieTelnetTransport,33,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:03:37.087577Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:53192 (206.189.93.218:2223) [session: d8e48edf5b41]
+2020-11-10T11:03:49.774311Z [CowrieTelnetTransport,34,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:03:50.192462Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 222.141.244.80:53501 (206.189.93.218:2223) [session: fa094cb7ad90]
+2020-11-10T11:04:02.745759Z [CowrieTelnetTransport,35,222.141.244.80] Connection lost after 12 seconds
+2020-11-10T11:13:19.157301Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 110.138.151.174:10051 (206.189.93.218:2222) [session: 78103bfb4692]
+2020-11-10T11:13:19.367534Z [HoneyPotSSHTransport,32,110.138.151.174] Remote SSH version: b'SSH-2.0-OpenSSH_for_Windows_7.6'
+2020-11-10T11:13:20.097720Z [HoneyPotSSHTransport,32,110.138.151.174] SSH client hassh fingerprint: 740d79e2cbb9ce5f5e1118beefbb4e34
+2020-11-10T11:13:20.147112Z [HoneyPotSSHTransport,32,110.138.151.174] kex alg, key alg: b'curve25519-sha256' b'ssh-rsa'
+2020-11-10T11:13:20.147354Z [HoneyPotSSHTransport,32,110.138.151.174] outgoing: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T11:13:20.147413Z [HoneyPotSSHTransport,32,110.138.151.174] incoming: b'aes128-ctr' b'hmac-sha2-512' b'none'
+2020-11-10T11:13:20.536555Z [HoneyPotSSHTransport,32,110.138.151.174] NEW KEYS
+2020-11-10T11:13:20.585443Z [HoneyPotSSHTransport,32,110.138.151.174] starting service b'ssh-userauth'
+2020-11-10T11:13:20.696305Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,32,110.138.151.174] b'skripsi' trying auth b'none'
+2020-11-10T11:13:22.039522Z [HoneyPotSSHTransport,32,110.138.151.174] connection lost
+2020-11-10T11:13:22.050294Z [HoneyPotSSHTransport,32,110.138.151.174] Connection lost after 2 seconds
+2020-11-10T12:04:27.911862Z [-] Removing stale pidfile /home/cowrie/cowrie/var/run/cowrie.pid
+2020-11-10T12:04:27.912940Z [-] Python Version 3.6.9 (default, Oct  8 2020, 12:12:24) [GCC 8.4.0]
+2020-11-10T12:04:27.912979Z [-] Twisted Version 20.3.0
+2020-11-10T12:04:27.916733Z [-] Loaded output engine: jsonlog
+2020-11-10T12:04:27.921406Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 20.3.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.6.9) starting up.
+2020-11-10T12:04:27.921480Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2020-11-10T12:04:27.931199Z [-] CowrieSSHFactory starting on 2222
+2020-11-10T12:04:27.931877Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f03ccae2ac8>
+2020-11-10T12:04:27.963289Z [-] Ready to accept SSH connections
+2020-11-10T12:04:27.964030Z [-] HoneyPotTelnetFactory starting on 2223
+2020-11-10T12:04:27.964169Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Starting factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f03ccae2be0>
+2020-11-10T12:04:27.967208Z [-] Ready to accept Telnet connections
+2020-11-10T12:14:46.694747Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 192.35.168.144:12764 (206.189.93.218:2223) [session: 5e9fb4e07a56]
+2020-11-10T12:14:51.461664Z [CowrieTelnetTransport,0,192.35.168.144] Connection lost after 4 seconds
+2020-11-10T12:21:12.135961Z [-] Received SIGTERM, shutting down.
+2020-11-10T12:21:12.136590Z [-] (TCP Port 2223 Closed)
+2020-11-10T12:21:12.136795Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Stopping factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f03ccae2be0>
+2020-11-10T12:21:12.136917Z [-] (TCP Port 2222 Closed)
+2020-11-10T12:21:12.137007Z [cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f03ccae2ac8>
+2020-11-10T12:21:12.137162Z [-] Main loop terminated.
+2020-11-10T12:26:26.510920Z [-] Python Version 3.6.9 (default, Oct  8 2020, 12:12:24) [GCC 8.4.0]
+2020-11-10T12:26:26.510981Z [-] Twisted Version 20.3.0
+2020-11-10T12:26:26.514647Z [-] Loaded output engine: jsonlog
+2020-11-10T12:26:26.516326Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 20.3.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.6.9) starting up.
+2020-11-10T12:26:26.516401Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2020-11-10T12:26:26.523481Z [-] CowrieSSHFactory starting on 2222
+2020-11-10T12:26:26.524376Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f88caf92ac8>
+2020-11-10T12:26:26.560421Z [-] Ready to accept SSH connections
+2020-11-10T12:26:26.565398Z [-] HoneyPotTelnetFactory starting on 2223
+2020-11-10T12:26:26.565652Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Starting factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f88caf92be0>
+2020-11-10T12:26:26.566502Z [-] Ready to accept Telnet connections
+2020-11-10T12:34:56.399966Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:51078 (206.189.93.218:2223) [session: 6242f7b4b5c8]
+2020-11-10T12:34:56.792570Z [CowrieTelnetTransport,0,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:34:56.793222Z [CowrieTelnetTransport,0,51.15.86.91] login attempt [b'admin'/b'admin'] failed
+2020-11-10T12:34:56.793893Z [CowrieTelnetTransport,0,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:34:57.295676Z [CowrieTelnetTransport,0,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:34:57.470612Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:53604 (206.189.93.218:2223) [session: 2c3de844ab9b]
+2020-11-10T12:34:57.861156Z [CowrieTelnetTransport,1,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:34:57.861431Z [CowrieTelnetTransport,1,51.15.86.91] login attempt [b'support'/b'support'] failed
+2020-11-10T12:34:57.862006Z [CowrieTelnetTransport,1,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:34:58.363747Z [CowrieTelnetTransport,1,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:34:58.539919Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:56278 (206.189.93.218:2223) [session: b96d6605d30d]
+2020-11-10T12:34:58.918967Z [CowrieTelnetTransport,2,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:34:58.919212Z [CowrieTelnetTransport,2,51.15.86.91] login attempt [b'user'/b'user'] failed
+2020-11-10T12:34:58.919830Z [CowrieTelnetTransport,2,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:34:59.419662Z [CowrieTelnetTransport,2,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:34:59.594512Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:58596 (206.189.93.218:2223) [session: 5257d6b61674]
+2020-11-10T12:34:59.981733Z [CowrieTelnetTransport,3,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:34:59.981979Z [CowrieTelnetTransport,3,51.15.86.91] login attempt [b'user'/b''] failed
+2020-11-10T12:34:59.982522Z [CowrieTelnetTransport,3,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:00.483944Z [CowrieTelnetTransport,3,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:00.631741Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:32798 (206.189.93.218:2223) [session: e21a07514eb5]
+2020-11-10T12:35:01.004571Z [CowrieTelnetTransport,4,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:01.004891Z [CowrieTelnetTransport,4,51.15.86.91] login attempt [b'admin'/b''] failed
+2020-11-10T12:35:01.006041Z [CowrieTelnetTransport,4,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:01.533896Z [CowrieTelnetTransport,4,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:01.760140Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:35266 (206.189.93.218:2223) [session: c8eae0ec7676]
+2020-11-10T12:35:02.143038Z [CowrieTelnetTransport,5,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:02.143342Z [CowrieTelnetTransport,5,51.15.86.91] login attempt [b'guest'/b'guest'] failed
+2020-11-10T12:35:02.144163Z [CowrieTelnetTransport,5,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:02.644068Z [CowrieTelnetTransport,5,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:02.805401Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:37330 (206.189.93.218:2223) [session: 136a5a618ad1]
+2020-11-10T12:35:03.172921Z [CowrieTelnetTransport,6,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:03.173202Z [CowrieTelnetTransport,6,51.15.86.91] login attempt [b'guest'/b'12345'] failed
+2020-11-10T12:35:03.173875Z [CowrieTelnetTransport,6,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:03.685091Z [CowrieTelnetTransport,6,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:03.884841Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:39474 (206.189.93.218:2223) [session: 7f021ef09f32]
+2020-11-10T12:35:04.267133Z [CowrieTelnetTransport,7,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:04.267458Z [CowrieTelnetTransport,7,51.15.86.91] login attempt [b'default'/b'default'] failed
+2020-11-10T12:35:04.268360Z [CowrieTelnetTransport,7,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:04.768395Z [CowrieTelnetTransport,7,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:04.918437Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:42146 (206.189.93.218:2223) [session: cda75d12aacb]
+2020-11-10T12:35:05.302087Z [CowrieTelnetTransport,8,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:05.302337Z [CowrieTelnetTransport,8,51.15.86.91] login attempt [b'daemon'/b'daemon'] failed
+2020-11-10T12:35:05.302877Z [CowrieTelnetTransport,8,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:05.810662Z [CowrieTelnetTransport,8,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:05.991129Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:44696 (206.189.93.218:2223) [session: 81dbdfea12b9]
+2020-11-10T12:35:06.382694Z [CowrieTelnetTransport,9,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:06.382939Z [CowrieTelnetTransport,9,51.15.86.91] login attempt [b'bin'/b''] failed
+2020-11-10T12:35:06.383476Z [CowrieTelnetTransport,9,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:06.883861Z [CowrieTelnetTransport,9,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:35:07.062328Z [cowrie.telnet.factory.HoneyPotTelnetFactory] New connection: 51.15.86.91:47246 (206.189.93.218:2223) [session: 7a5e5b59472f]
+2020-11-10T12:35:07.447177Z [CowrieTelnetTransport,10,51.15.86.91] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:35:07.447408Z [CowrieTelnetTransport,10,51.15.86.91] login attempt [b'root'/b'default'] succeeded
+2020-11-10T12:35:07.447901Z [CowrieTelnetTransport,10,51.15.86.91] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T12:35:07.510257Z [CowrieTelnetTransport,10,51.15.86.91] Warning: state changed and new state returned
+2020-11-10T12:35:07.957213Z [CowrieTelnetTransport,10,51.15.86.91] Closing TTY Log: var/lib/cowrie/tty/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 after 0 seconds
+2020-11-10T12:35:07.966583Z [CowrieTelnetTransport,10,51.15.86.91] Connection lost after 0 seconds
+2020-11-10T12:36:32.589043Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 141.98.9.163:42617 (206.189.93.218:2222) [session: 4001d5e9cfac]
+2020-11-10T12:36:32.750327Z [HoneyPotSSHTransport,0,141.98.9.163] Remote SSH version: b'SSH-2.0-OpenSSH_7.3'
+2020-11-10T12:36:32.909670Z [HoneyPotSSHTransport,0,141.98.9.163] SSH client hassh fingerprint: efc905af499ab20fa3cd9216b0770001
+2020-11-10T12:36:32.910765Z [HoneyPotSSHTransport,0,141.98.9.163] kex alg, key alg: b'diffie-hellman-group14-sha1' b'ssh-rsa'
+2020-11-10T12:36:32.910871Z [HoneyPotSSHTransport,0,141.98.9.163] outgoing: b'3des-cbc' b'hmac-sha1' b'none'
+2020-11-10T12:36:32.910947Z [HoneyPotSSHTransport,0,141.98.9.163] incoming: b'3des-cbc' b'hmac-sha1' b'none'
+2020-11-10T12:36:33.287463Z [HoneyPotSSHTransport,0,141.98.9.163] NEW KEYS
+2020-11-10T12:36:33.488811Z [HoneyPotSSHTransport,0,141.98.9.163] starting service b'ssh-userauth'
+2020-11-10T12:36:33.648815Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] b'root' trying auth b'password'
+2020-11-10T12:36:33.649110Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] Could not read etc/userdb.txt, default database activated
+2020-11-10T12:36:33.649238Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] login attempt [b'root'/b'admin'] succeeded
+2020-11-10T12:36:33.649905Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] Initialized emulated server as architecture: linux-x64-lsb
+2020-11-10T12:36:33.650389Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] b'root' authenticated with b'password'
+2020-11-10T12:36:33.650701Z [SSHService b'ssh-userauth' on HoneyPotSSHTransport,0,141.98.9.163] starting service b'ssh-connection'
+2020-11-10T12:36:33.810841Z [HoneyPotSSHTransport,0,141.98.9.163] avatar root logging out
+2020-11-10T12:36:33.811027Z [HoneyPotSSHTransport,0,141.98.9.163] connection lost
+2020-11-10T12:36:33.811090Z [HoneyPotSSHTransport,0,141.98.9.163] Connection lost after 1 seconds
+2020-11-10T12:44:48.668690Z [-] Received SIGTERM, shutting down.
+2020-11-10T12:44:48.669266Z [-] (TCP Port 2223 Closed)
+2020-11-10T12:44:48.669540Z [cowrie.telnet.factory.HoneyPotTelnetFactory#info] Stopping factory <cowrie.telnet.factory.HoneyPotTelnetFactory object at 0x7f88caf92be0>
+2020-11-10T12:44:48.669665Z [-] (TCP Port 2222 Closed)
+2020-11-10T12:44:48.669782Z [cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f88caf92ac8>
+2020-11-10T12:44:48.669932Z [-] Main loop terminated.
+2020-11-10T12:44:48.670157Z [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
