@@ -1,0 +1,383 @@
+Log File Name:,.\log\cowrie.json.2020-11-10.txt
+Time Stamp,Action Type,Session,IP,Command List,List Mitre Attack
+2020-11-10T08:51:52.752000Z,New Connection to SSH,401dd041fa67,140.213.33.218,-,
+2020-11-10T08:52:35.728851Z,New Connection to SSH,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:35.746460Z,Version,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:35.804096Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:39.009667Z,Login attemp as root@tasdasd success,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:39.212762Z,Cowrie save the size of terminal session as height: 30 and width 120,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:39.215822Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:52:42.169021Z,Run a command,e2b345d582f6,140.213.33.218,blasdij,
+2020-11-10T08:52:42.182525Z,Command failed to run,e2b345d582f6,140.213.33.218,Command not found: blasdij,
+2020-11-10T08:52:46.590667Z,Run a command,e2b345d582f6,140.213.33.218,testing aja wey,
+2020-11-10T08:52:46.592547Z,Command failed to run,e2b345d582f6,140.213.33.218,Command not found: testing aja wey,
+2020-11-10T08:52:49.294428Z,Run a command,e2b345d582f6,140.213.33.218,om kevin,
+2020-11-10T08:52:49.295365Z,Command failed to run,e2b345d582f6,140.213.33.218,Command not found: om kevin,
+2020-11-10T08:52:58.296638Z,Run a command,e2b345d582f6,140.213.33.218,coba ini keterima ga ?,
+2020-11-10T08:52:58.305423Z,Command failed to run,e2b345d582f6,140.213.33.218,Command not found: coba ini keterima ga ?,
+2020-11-10T08:53:52.829217Z,Connection lost from SSH,401dd041fa67,140.213.33.218,-,
+2020-11-10T08:55:39.101122Z,Closing TTY Log (Input Log) for this Session,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:55:39.102784Z,Connection lost from SSH,e2b345d582f6,140.213.33.218,-,
+2020-11-10T08:58:31.820501Z,New Connection to SSH,dfdb469d070b,103.125.43.28,-,
+2020-11-10T08:58:31.836909Z,Version,dfdb469d070b,103.125.43.28,-,
+2020-11-10T08:58:31.860868Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,dfdb469d070b,103.125.43.28,-,
+2020-11-10T08:58:46.290378Z,Connection lost from SSH,dfdb469d070b,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T08:59:30.751220Z,New Connection to SSH,91c78bc72b12,103.125.43.28,-,
+2020-11-10T08:59:30.755321Z,Version,91c78bc72b12,103.125.43.28,-,
+2020-11-10T08:59:30.778030Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,91c78bc72b12,103.125.43.28,-,
+2020-11-10T08:59:32.886144Z,Connection lost from SSH,91c78bc72b12,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:05:31.871663Z,New Connection to SSH,dbb344202e0d,103.125.43.28,-,
+2020-11-10T09:05:31.877254Z,Version,dbb344202e0d,103.125.43.28,-,
+2020-11-10T09:05:31.899819Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,dbb344202e0d,103.125.43.28,-,
+2020-11-10T09:05:34.985830Z,Connection lost from SSH,dbb344202e0d,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:06:03.690443Z,New Connection to SSH,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:03.691580Z,Version,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:03.714196Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:12.170676Z,Login attemp as root@P@ssW0rd success,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:12.373325Z,Cowrie save the size of terminal session as height: 30 and width 120,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:12.378994Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:06:18.931170Z,Run a command,782ed15efa7a,103.125.43.28,netstat,T212 (abc) abc | 
+2020-11-10T09:07:02.886161Z,Run a command,782ed15efa7a,103.125.43.28,halo,
+2020-11-10T09:07:02.900736Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: halo,
+2020-11-10T09:07:04.038592Z,Run a command,782ed15efa7a,103.125.43.28,oi,
+2020-11-10T09:07:04.039869Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: oi,
+2020-11-10T09:07:08.692808Z,Run a command,782ed15efa7a,103.125.43.28,testing,
+2020-11-10T09:07:08.694079Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: testing,
+2020-11-10T09:07:10.447357Z,Run a command,782ed15efa7a,103.125.43.28,1,
+2020-11-10T09:07:10.448601Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: 1,
+2020-11-10T09:07:10.820379Z,Run a command,782ed15efa7a,103.125.43.28,2,
+2020-11-10T09:07:10.826917Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: 2,
+2020-11-10T09:07:11.154646Z,Run a command,782ed15efa7a,103.125.43.28,3,
+2020-11-10T09:07:11.155881Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: 3,
+2020-11-10T09:07:38.153169Z,Run a command,782ed15efa7a,103.125.43.28,pwd,
+2020-11-10T09:07:39.285168Z,Run a command,782ed15efa7a,103.125.43.28,id,
+2020-11-10T09:07:42.191094Z,Run a command,782ed15efa7a,103.125.43.28,ls,
+2020-11-10T09:07:48.161997Z,Run a command,782ed15efa7a,103.125.43.28,cd /etc/,
+2020-11-10T09:07:48.891393Z,Run a command,782ed15efa7a,103.125.43.28,ls,
+2020-11-10T09:07:56.847531Z,Run a command,782ed15efa7a,103.125.43.28,ufw status,
+2020-11-10T09:07:56.862192Z,Command failed to run,782ed15efa7a,103.125.43.28,Command not found: ufw status,
+2020-11-10T09:09:12.268163Z,Closing TTY Log (Input Log) for this Session,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:09:12.270021Z,Connection lost from SSH,782ed15efa7a,103.125.43.28,-,
+2020-11-10T09:21:52.685384Z,New Connection to SSH,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:21:52.690636Z,Version,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:21:52.713371Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:21:56.385381Z,Login attemp as skripsi@P@ssW0rd failed,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:22:02.742335Z,Login attemp as skripsi@P@ssW0rd failed,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:22:07.218753Z,Connection lost from SSH,86a1db01806e,103.125.43.28,-,
+2020-11-10T09:22:23.275387Z,New Connection to SSH,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:23.276310Z,Version,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:23.294507Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:26.914951Z,Login attemp as root@P@ssW0rd success,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:27.139388Z,Cowrie save the size of terminal session as height: 30 and width 120,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:27.151832Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:35.229291Z,Run a command,69ea7a55db53,103.125.43.28,exot,
+2020-11-10T09:22:35.230660Z,Command failed to run,69ea7a55db53,103.125.43.28,Command not found: exot,
+2020-11-10T09:22:36.674128Z,Run a command,69ea7a55db53,103.125.43.28,exot,
+2020-11-10T09:22:36.675086Z,Command failed to run,69ea7a55db53,103.125.43.28,Command not found: exot,
+2020-11-10T09:22:38.774177Z,Run a command,69ea7a55db53,103.125.43.28,exit,
+2020-11-10T09:22:38.775391Z,Closing TTY Log (Input Log) for this Session,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:22:38.794625Z,Connection lost from SSH,69ea7a55db53,103.125.43.28,-,
+2020-11-10T09:35:25.496208Z,New Connection to SSH,57722fe4d246,103.125.43.28,-,
+2020-11-10T09:35:25.508406Z,Version,57722fe4d246,103.125.43.28,-,
+2020-11-10T09:35:25.531530Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,57722fe4d246,103.125.43.28,-,
+2020-11-10T09:35:25.585446Z,Connection lost from SSH,57722fe4d246,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:35:29.265657Z,New Connection to SSH,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:29.270877Z,Version,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:29.312401Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:38.847435Z,Login attemp as skripsi@P@ssW0rd failed,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:39.090806Z,New Connection to SSH,4ea2ca4eaf92,103.125.43.28,-,
+2020-11-10T09:35:39.092163Z,Version,4ea2ca4eaf92,103.125.43.28,-,
+2020-11-10T09:35:39.110403Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,4ea2ca4eaf92,103.125.43.28,-,
+2020-11-10T09:35:41.719084Z,Connection lost from SSH,4ea2ca4eaf92,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:35:42.931594Z,New Connection to SSH,659eb60c67ef,103.125.43.28,-,
+2020-11-10T09:35:42.933016Z,Version,659eb60c67ef,103.125.43.28,-,
+2020-11-10T09:35:42.955457Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,659eb60c67ef,103.125.43.28,-,
+2020-11-10T09:35:43.053203Z,Connection lost from SSH,659eb60c67ef,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:35:46.341380Z,Login attemp as skripsi@P@ssW0rd failed,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:49.023130Z,Login attemp as skripsi@l failed,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:35:50.076599Z,Connection lost from SSH,ea57e107d3ed,110.138.151.174,-,
+2020-11-10T09:38:25.003770Z,New Connection to SSH,16b39054d06f,103.125.43.28,-,
+2020-11-10T09:38:25.065661Z,Version,16b39054d06f,103.125.43.28,-,
+2020-11-10T09:38:25.092992Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,16b39054d06f,103.125.43.28,-,
+2020-11-10T09:38:25.147377Z,Connection lost from SSH,16b39054d06f,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:39:08.954803Z,New Connection to SSH,2679b2cd9432,103.125.43.28,-,
+2020-11-10T09:39:08.974904Z,Version,2679b2cd9432,103.125.43.28,-,
+2020-11-10T09:39:09.013093Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,2679b2cd9432,103.125.43.28,-,
+2020-11-10T09:39:09.067668Z,Connection lost from SSH,2679b2cd9432,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:40:53.261436Z,New Connection to SSH,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:40:53.267652Z,Version,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:40:53.324236Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:40:59.231345Z,New Connection to SSH,aec36e427401,110.138.151.174,-,
+2020-11-10T09:40:59.489135Z,New Connection to SSH,f92884be2913,110.138.151.174,-,
+2020-11-10T09:40:59.491071Z,Version,f92884be2913,110.138.151.174,-,
+2020-11-10T09:40:59.492223Z,Connection lost from SSH,f92884be2913,110.138.151.174,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:41:00.453640Z,Login attemp as root@passwordasdasdasda success,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:00.833901Z,Cowrie save the size of terminal session as height: 30 and width 120,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:01.014637Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:08.468851Z,Run a command,2e31dfe117da,140.213.33.218,test,
+2020-11-10T09:41:08.478745Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: test,
+2020-11-10T09:41:15.942449Z,Run a command,2e31dfe117da,140.213.33.218,apakah ini masuk,
+2020-11-10T09:41:15.966629Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: apakah ini masuk,
+2020-11-10T09:41:17.851441Z,Run a command,2e31dfe117da,140.213.33.218,blah,
+2020-11-10T09:41:17.874607Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: blah,
+2020-11-10T09:41:24.734820Z,Run a command,2e31dfe117da,140.213.33.218,halo kevin ,
+2020-11-10T09:41:25.125056Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: halo kevin,
+2020-11-10T09:41:27.263070Z,Run a command,2e31dfe117da,140.213.33.218,halo natan,
+2020-11-10T09:41:27.627063Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: halo natan,
+2020-11-10T09:41:30.211437Z,Run a command,2e31dfe117da,140.213.33.218,ini gw yohanes,
+2020-11-10T09:41:30.507722Z,Command failed to run,2e31dfe117da,140.213.33.218,Command not found: ini gw yohanes,
+2020-11-10T09:41:46.782033Z,Run a command,2e31dfe117da,140.213.33.218,"echo ""halo Kevin"" > masuknih",
+2020-11-10T09:41:49.015105Z,Run a command,2e31dfe117da,140.213.33.218,exit,
+2020-11-10T09:41:49.651785Z,Saved redir contents with SHA-256 8d5f171bb68c1012fabef5121d2dea4622566578e2faff0e8f8f7b9daa6ea7d5 to var/lib/cowrie/downloads/8d5f171bb68c1012fabef5121d2dea4622566578e2faff0e8f8f7b9daa6ea7d5,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:49.860435Z,Closing TTY Log (Input Log) for this Session,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:50.780028Z,Connection lost from SSH,2e31dfe117da,140.213.33.218,-,
+2020-11-10T09:41:54.769422Z,Version,aec36e427401,110.138.151.174,-,
+2020-11-10T09:41:54.781579Z,Connection lost from SSH,aec36e427401,110.138.151.174,-,
+2020-11-10T09:41:54.822023Z,New Connection to SSH,2c8371ab5ab0,110.138.151.174,-,
+2020-11-10T09:41:59.806134Z,Version,2c8371ab5ab0,110.138.151.174,-,
+2020-11-10T09:42:00.393118Z,Connection lost from SSH,2c8371ab5ab0,110.138.151.174,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:42:00.962863Z,New Connection to SSH,6d5e3fe5039f,110.138.151.174,-,
+2020-11-10T09:43:45.884131Z,Connection lost from SSH,6d5e3fe5039f,110.138.151.174,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:44:24.839996Z,New Connection to SSH,2e366d1f48c8,45.146.164.239,-,
+2020-11-10T09:44:25.319040Z,Version,2e366d1f48c8,45.146.164.239,-,
+2020-11-10T09:44:25.616802Z,Cowrie save the SSH client hassh fingerprint as 492b943d405cf2ed74d9cc126dfc1fbb,2e366d1f48c8,45.146.164.239,-,
+2020-11-10T09:44:29.082390Z,Login attemp as root@root1234 success,2e366d1f48c8,45.146.164.239,-,
+2020-11-10T09:44:29.892954Z,Connection lost from SSH,2e366d1f48c8,45.146.164.239,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:44:45.799487Z,New Connection to SSH,767193ad4703,98.227.126.131,-,
+2020-11-10T09:44:46.092132Z,Version,767193ad4703,98.227.126.131,-,
+2020-11-10T09:44:47.840506Z,Connection lost from SSH,767193ad4703,98.227.126.131,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:55:43.455202Z,New Connection to SSH,9d1a20f3a468,103.125.43.28,-,
+2020-11-10T09:55:43.631184Z,Version,9d1a20f3a468,103.125.43.28,-,
+2020-11-10T09:55:43.653931Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,9d1a20f3a468,103.125.43.28,-,
+2020-11-10T09:55:43.707335Z,Connection lost from SSH,9d1a20f3a468,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:57:01.981042Z,New Connection to SSH,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:02.230710Z,Version,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:02.468076Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:07.803823Z,New Connection to SSH,40d8b70218a4,103.125.43.28,-,
+2020-11-10T09:57:08.789971Z,Version,40d8b70218a4,103.125.43.28,-,
+2020-11-10T09:57:08.881340Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,40d8b70218a4,103.125.43.28,-,
+2020-11-10T09:57:10.725802Z,Login attemp as kevin@root failed,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:11.111892Z,Connection lost from SSH,40d8b70218a4,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:57:13.681572Z,Login attemp as kevin@ failed,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:36.953732Z,Login attemp as kevin@P@ssW0rd failed,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:39.901158Z,Connection lost from SSH,3226e7881b67,110.138.151.174,-,
+2020-11-10T09:57:51.349005Z,New Connection to SSH,cc30c9a505eb,110.138.151.174,-,
+2020-11-10T09:57:51.698566Z,Version,cc30c9a505eb,110.138.151.174,-,
+2020-11-10T09:57:51.749348Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,cc30c9a505eb,110.138.151.174,-,
+2020-11-10T09:58:36.415771Z,New Connection to SSH,2a897c7a2c51,103.125.43.28,-,
+2020-11-10T09:58:36.818204Z,Version,2a897c7a2c51,103.125.43.28,-,
+2020-11-10T09:58:37.303511Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,2a897c7a2c51,103.125.43.28,-,
+2020-11-10T09:58:39.090027Z,Connection lost from SSH,2a897c7a2c51,103.125.43.28,-,T444 (Reconisance) Test Connection | 
+2020-11-10T09:59:28.536983Z,New Connection to SSH,1abd0529ebce,103.125.43.28,-,
+2020-11-10T09:59:29.474728Z,Version,1abd0529ebce,103.125.43.28,-,
+2020-11-10T09:59:29.497107Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,1abd0529ebce,103.125.43.28,-,
+2020-11-10T09:59:40.010197Z,Login attemp as nat@P@ssW0rd failed,1abd0529ebce,103.125.43.28,-,
+2020-11-10T09:59:52.083443Z,Connection lost from SSH,cc30c9a505eb,110.138.151.174,-,
+2020-11-10T10:00:09.160846Z,New Connection to SSH,53b8b37017e7,110.138.151.174,-,
+2020-11-10T10:00:09.172355Z,Version,53b8b37017e7,110.138.151.174,-,
+2020-11-10T10:00:09.286720Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,53b8b37017e7,110.138.151.174,-,
+2020-11-10T10:01:21.341364Z,New Connection to SSH,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:01:21.582226Z,Version,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:01:21.683770Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:01:29.803807Z,Connection lost from SSH,1abd0529ebce,103.125.43.28,-,
+2020-11-10T10:01:34.308734Z,Login attemp as root@kasdkasdksadk success,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:01:37.806358Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:01:48.716731Z,New Connection to SSH,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:01:48.724394Z,Version,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:01:48.767061Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:01:51.615562Z,Login attemp as nat@sdsd failed,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:01:57.326148Z,Login attemp as nat@ failed,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:02:03.201856Z,Login attemp as nat@password failed,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:02:04.265954Z,Connection lost from SSH,5e7c976ea4cb,103.125.43.28,-,
+2020-11-10T10:02:09.200144Z,Connection lost from SSH,53b8b37017e7,110.138.151.174,-,
+2020-11-10T10:02:09.227965Z,Run a command,7e035df9ccda,110.138.151.174,abcd,
+2020-11-10T10:02:09.231529Z,Command failed to run,7e035df9ccda,110.138.151.174,Command not found: abcd,
+2020-11-10T10:02:12.006137Z,Run a command,7e035df9ccda,110.138.151.174,,
+2020-11-10T10:02:13.150105Z,Run a command,7e035df9ccda,110.138.151.174,ls,
+2020-11-10T10:02:14.772365Z,Run a command,7e035df9ccda,110.138.151.174,ls,
+2020-11-10T10:02:18.177205Z,Run a command,7e035df9ccda,110.138.151.174,ufw status,
+2020-11-10T10:02:18.190763Z,Command failed to run,7e035df9ccda,110.138.151.174,Command not found: ufw status,
+2020-11-10T10:02:27.237401Z,New Connection to SSH,4034c4584200,103.125.43.28,-,
+2020-11-10T10:02:27.260783Z,Version,4034c4584200,103.125.43.28,-,
+2020-11-10T10:02:27.307331Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,4034c4584200,103.125.43.28,-,
+2020-11-10T10:02:28.149618Z,Login attemp as nat@ failed,4034c4584200,103.125.43.28,-,
+2020-11-10T10:02:28.629352Z,Run a command,7e035df9ccda,110.138.151.174,sudo ,
+2020-11-10T10:02:31.110628Z,Run a command,7e035df9ccda,110.138.151.174,sudo -v,
+2020-11-10T10:02:43.991299Z,Connection lost from SSH,4034c4584200,103.125.43.28,-,
+2020-11-10T10:02:49.171441Z,New Connection to SSH,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:49.181110Z,Version,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:49.254188Z,Cowrie save the SSH client hassh fingerprint as 2dd6531c7e89d3c925db9214711be76a,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:49.604198Z,Run a command,7e035df9ccda,110.138.151.174,sudo,
+2020-11-10T10:02:50.274778Z,Login attemp as root@ success,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:50.782030Z,Cowrie save the size of terminal session as height: 30 and width 120,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:51.630399Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:02:53.347973Z,Run a command,7e035df9ccda,110.138.151.174,sudo ls,
+2020-11-10T10:02:55.933397Z,Run a command,b4fd6afd8cb6,103.125.43.28,asd,
+2020-11-10T10:02:56.013402Z,Command failed to run,b4fd6afd8cb6,103.125.43.28,Command not found: asd,
+2020-11-10T10:02:58.235425Z,Run a command,7e035df9ccda,110.138.151.174,,
+2020-11-10T10:02:59.085750Z,Run a command,b4fd6afd8cb6,103.125.43.28,pwd,
+2020-11-10T10:03:02.057940Z,Run a command,7e035df9ccda,110.138.151.174,sudo ,
+2020-11-10T10:03:03.809426Z,Run a command,7e035df9ccda,110.138.151.174,ls,
+2020-11-10T10:03:06.838001Z,Run a command,7e035df9ccda,110.138.151.174,cd ,
+2020-11-10T10:03:08.817369Z,Run a command,7e035df9ccda,110.138.151.174,cd ..,
+2020-11-10T10:04:02.299363Z,Run a command,7e035df9ccda,110.138.151.174,help,
+2020-11-10T10:04:05.344153Z,Run a command,7e035df9ccda,110.138.151.174,help,
+2020-11-10T10:04:12.966967Z,Run a command,7e035df9ccda,110.138.151.174,h,
+2020-11-10T10:04:13.462837Z,Command failed to run,7e035df9ccda,110.138.151.174,Command not found: h,
+2020-11-10T10:04:18.261683Z,Run a command,7e035df9ccda,110.138.151.174,"echo ""hi""",
+2020-11-10T10:04:34.856563Z,Closing TTY Log (Input Log) for this Session,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:04:34.860350Z,Connection lost from SSH,7e035df9ccda,110.138.151.174,-,
+2020-11-10T10:05:50.622381Z,Closing TTY Log (Input Log) for this Session,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:05:52.122810Z,Connection lost from SSH,b4fd6afd8cb6,103.125.43.28,-,
+2020-11-10T10:31:57.789256Z,New Connection to SSH,f3c98645629a,185.96.55.121,-,
+2020-11-10T10:32:29.391890Z,Connection lost from SSH,f3c98645629a,185.96.55.121,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:35:07.359567Z,New Connection to SSH,ba9ae4035295,117.251.58.41,-,
+2020-11-10T10:35:20.289507Z,Connection lost from SSH,ba9ae4035295,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:35:23.381816Z,New Connection to SSH,07ba8be850f9,117.251.58.41,-,
+2020-11-10T10:35:36.208875Z,Connection lost from SSH,07ba8be850f9,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:35:45.325629Z,New Connection to SSH,31f28cd2266c,117.251.58.41,-,
+2020-11-10T10:35:58.243073Z,Connection lost from SSH,31f28cd2266c,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:36:01.326733Z,New Connection to SSH,760385fbef01,117.251.58.41,-,
+2020-11-10T10:36:14.288959Z,Connection lost from SSH,760385fbef01,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:36:14.368977Z,New Connection to SSH,7bc0cb656834,117.251.58.41,-,
+2020-11-10T10:36:27.242073Z,Connection lost from SSH,7bc0cb656834,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:36:27.322831Z,New Connection to SSH,a552eaeff2ae,117.251.58.41,-,
+2020-11-10T10:36:40.328113Z,Connection lost from SSH,a552eaeff2ae,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:36:40.409917Z,New Connection to SSH,b2ed1f9471a4,117.251.58.41,-,
+2020-11-10T10:36:53.252438Z,Connection lost from SSH,b2ed1f9471a4,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:36:56.355159Z,New Connection to SSH,85ce72e02257,117.251.58.41,-,
+2020-11-10T10:37:09.278499Z,Connection lost from SSH,85ce72e02257,117.251.58.41,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:55:31.910243Z,New Connection to SSH,4b6db568f182,2.188.94.5,-,
+2020-11-10T10:55:31.941491Z,New Connection to SSH,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:33.015984Z,Login attemp as root@user success,4b6db568f182,2.188.94.5,-,
+2020-11-10T10:55:33.073213Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,4b6db568f182,2.188.94.5,-,
+2020-11-10T10:55:33.155923Z,Login attemp as admin@12345 failed,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:33.423954Z,Run a command,4b6db568f182,2.188.94.5,enable,
+2020-11-10T10:55:33.426484Z,Run a command,4b6db568f182,2.188.94.5,system,T212 (abc) abc | 
+2020-11-10T10:55:33.427313Z,Command failed to run,4b6db568f182,2.188.94.5,Command not found: system,
+2020-11-10T10:55:33.430811Z,Run a command,4b6db568f182,2.188.94.5,shell,T212 (abc) abc | 
+2020-11-10T10:55:33.431666Z,Command failed to run,4b6db568f182,2.188.94.5,Command not found: shell,
+2020-11-10T10:55:33.432667Z,Run a command,4b6db568f182,2.188.94.5,sh,T212 (abc) abc | 
+2020-11-10T10:55:33.785534Z,Run a command,4b6db568f182,2.188.94.5,cat /proc/mounts; /bin/busybox EXEOJ,
+2020-11-10T10:55:34.142132Z,Run a command,4b6db568f182,2.188.94.5,cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox EXEOJ,T212 (abc) abc | 
+2020-11-10T10:55:34.364872Z,Login attemp as admin@1111 failed,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:34.506460Z,Run a command,4b6db568f182,2.188.94.5,tftp; wget; /bin/busybox EXEOJ,T123 (Exploitation) ingress file injection | 
+2020-11-10T10:55:34.862119Z,Run a command,4b6db568f182,2.188.94.5,dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s,T212 (abc) abc | 
+2020-11-10T10:55:34.869508Z,Command failed to run,4b6db568f182,2.188.94.5,Command not found: while read i,
+2020-11-10T10:55:35.229238Z,Run a command,4b6db568f182,2.188.94.5,/bin/busybox EXEOJ,
+2020-11-10T10:55:35.231071Z,Run a command,4b6db568f182,2.188.94.5,rm .s; exit,T212 (Destroy) Destroy the system | 
+2020-11-10T10:55:35.239116Z,Closing TTY Log (Input Log) for this Session,4b6db568f182,2.188.94.5,-,
+2020-11-10T10:55:35.247843Z,Connection lost from SSH,4b6db568f182,2.188.94.5,-,
+2020-11-10T10:55:35.572882Z,Login attemp as root@realtek success,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:35.753828Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:36.143679Z,Run a command,6ff9db0dbca1,2.188.94.5,enable,
+2020-11-10T10:55:36.145196Z,Run a command,6ff9db0dbca1,2.188.94.5,system,T212 (abc) abc | 
+2020-11-10T10:55:36.145864Z,Command failed to run,6ff9db0dbca1,2.188.94.5,Command not found: system,
+2020-11-10T10:55:36.146394Z,Run a command,6ff9db0dbca1,2.188.94.5,shell,T212 (abc) abc | 
+2020-11-10T10:55:36.147018Z,Command failed to run,6ff9db0dbca1,2.188.94.5,Command not found: shell,
+2020-11-10T10:55:36.147573Z,Run a command,6ff9db0dbca1,2.188.94.5,sh,T212 (abc) abc | 
+2020-11-10T10:55:36.541356Z,Run a command,6ff9db0dbca1,2.188.94.5,cat /proc/mounts; /bin/busybox MQAJD,
+2020-11-10T10:55:36.935490Z,Run a command,6ff9db0dbca1,2.188.94.5,cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox MQAJD,T212 (abc) abc | 
+2020-11-10T10:55:37.328041Z,Run a command,6ff9db0dbca1,2.188.94.5,tftp; wget; /bin/busybox MQAJD,T123 (Exploitation) ingress file injection | 
+2020-11-10T10:55:37.720808Z,Run a command,6ff9db0dbca1,2.188.94.5,dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s,T212 (abc) abc | 
+2020-11-10T10:55:37.722761Z,Command failed to run,6ff9db0dbca1,2.188.94.5,Command not found: while read i,
+2020-11-10T10:55:38.112826Z,Run a command,6ff9db0dbca1,2.188.94.5,/bin/busybox MQAJD,
+2020-11-10T10:55:38.114533Z,Run a command,6ff9db0dbca1,2.188.94.5,rm .s; exit,T212 (Destroy) Destroy the system | 
+2020-11-10T10:55:38.119083Z,Closing TTY Log (Input Log) for this Session,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:55:38.127996Z,Connection lost from SSH,6ff9db0dbca1,2.188.94.5,-,
+2020-11-10T10:58:29.321364Z,New Connection to SSH,9e6af7a2ce20,222.141.244.80,-,
+2020-11-10T10:58:42.073455Z,Connection lost from SSH,9e6af7a2ce20,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:58:42.084016Z,New Connection to SSH,21ffa0d07645,222.141.244.80,-,
+2020-11-10T10:58:54.764192Z,Connection lost from SSH,21ffa0d07645,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:58:55.065275Z,New Connection to SSH,51f185f78c61,222.141.244.80,-,
+2020-11-10T10:59:07.760518Z,Connection lost from SSH,51f185f78c61,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:59:08.063035Z,New Connection to SSH,ea0561087255,222.141.244.80,-,
+2020-11-10T10:59:20.777004Z,Connection lost from SSH,ea0561087255,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:59:22.049311Z,New Connection to SSH,9aea34ee9a99,222.141.244.80,-,
+2020-11-10T10:59:34.738751Z,Connection lost from SSH,9aea34ee9a99,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:59:36.055664Z,New Connection to SSH,79b24d1e5479,222.141.244.80,-,
+2020-11-10T10:59:48.782206Z,Connection lost from SSH,79b24d1e5479,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T10:59:51.059662Z,New Connection to SSH,0a6c29fe5c74,222.141.244.80,-,
+2020-11-10T11:00:03.782176Z,Connection lost from SSH,0a6c29fe5c74,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:00:05.087863Z,New Connection to SSH,f13935c150df,222.141.244.80,-,
+2020-11-10T11:00:17.819191Z,Connection lost from SSH,f13935c150df,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:00:18.124262Z,New Connection to SSH,e7541fe9c243,222.141.244.80,-,
+2020-11-10T11:00:30.834112Z,Connection lost from SSH,e7541fe9c243,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:00:31.125066Z,New Connection to SSH,14994d2fdea5,222.141.244.80,-,
+2020-11-10T11:00:43.792728Z,Connection lost from SSH,14994d2fdea5,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:00:44.104160Z,New Connection to SSH,b769d2e2b00a,222.141.244.80,-,
+2020-11-10T11:00:56.795451Z,Connection lost from SSH,b769d2e2b00a,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:00:58.105877Z,New Connection to SSH,7f67f2960121,222.141.244.80,-,
+2020-11-10T11:01:10.810265Z,Connection lost from SSH,7f67f2960121,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:01:11.071414Z,New Connection to SSH,e61574c7f22e,222.141.244.80,-,
+2020-11-10T11:01:23.767141Z,Connection lost from SSH,e61574c7f22e,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:01:24.101208Z,New Connection to SSH,c4279b5deb10,222.141.244.80,-,
+2020-11-10T11:01:36.805716Z,Connection lost from SSH,c4279b5deb10,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:01:39.129301Z,New Connection to SSH,ec7567a0821d,222.141.244.80,-,
+2020-11-10T11:01:51.771851Z,Connection lost from SSH,ec7567a0821d,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:01:52.079363Z,New Connection to SSH,be69d442a6aa,222.141.244.80,-,
+2020-11-10T11:02:04.785119Z,Connection lost from SSH,be69d442a6aa,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:02:05.092903Z,New Connection to SSH,f59032bc9bc3,222.141.244.80,-,
+2020-11-10T11:02:17.827984Z,Connection lost from SSH,f59032bc9bc3,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:02:18.128596Z,New Connection to SSH,23b3b627edc6,222.141.244.80,-,
+2020-11-10T11:02:30.766075Z,Connection lost from SSH,23b3b627edc6,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:02:31.062618Z,New Connection to SSH,ad9190ec6622,222.141.244.80,-,
+2020-11-10T11:02:43.795733Z,Connection lost from SSH,ad9190ec6622,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:02:44.114350Z,New Connection to SSH,65fbd94cdfe7,222.141.244.80,-,
+2020-11-10T11:02:56.799842Z,Connection lost from SSH,65fbd94cdfe7,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:02:58.087409Z,New Connection to SSH,b193c5cf4554,222.141.244.80,-,
+2020-11-10T11:03:10.782822Z,Connection lost from SSH,b193c5cf4554,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:03:11.158609Z,New Connection to SSH,26a0441186a6,222.141.244.80,-,
+2020-11-10T11:03:23.776453Z,Connection lost from SSH,26a0441186a6,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:03:24.067428Z,New Connection to SSH,0ac789c56afc,222.141.244.80,-,
+2020-11-10T11:03:36.784609Z,Connection lost from SSH,0ac789c56afc,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:03:37.087577Z,New Connection to SSH,d8e48edf5b41,222.141.244.80,-,
+2020-11-10T11:03:49.774311Z,Connection lost from SSH,d8e48edf5b41,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:03:50.192462Z,New Connection to SSH,fa094cb7ad90,222.141.244.80,-,
+2020-11-10T11:04:02.745759Z,Connection lost from SSH,fa094cb7ad90,222.141.244.80,-,T444 (Reconisance) Test Connection | 
+2020-11-10T11:13:19.157301Z,New Connection to SSH,78103bfb4692,110.138.151.174,-,
+2020-11-10T11:13:19.367534Z,Version,78103bfb4692,110.138.151.174,-,
+2020-11-10T11:13:20.097720Z,Cowrie save the SSH client hassh fingerprint as 740d79e2cbb9ce5f5e1118beefbb4e34,78103bfb4692,110.138.151.174,-,
+2020-11-10T11:13:22.050294Z,Connection lost from SSH,78103bfb4692,110.138.151.174,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:14:46.694747Z,New Connection to SSH,5e9fb4e07a56,192.35.168.144,-,
+2020-11-10T12:14:51.461664Z,Connection lost from SSH,5e9fb4e07a56,192.35.168.144,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:34:56.399966Z,New Connection to SSH,6242f7b4b5c8,51.15.86.91,-,
+2020-11-10T12:34:56.793222Z,Login attemp as admin@admin failed,6242f7b4b5c8,51.15.86.91,-,
+2020-11-10T12:34:57.295676Z,Connection lost from SSH,6242f7b4b5c8,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:34:57.470612Z,New Connection to SSH,2c3de844ab9b,51.15.86.91,-,
+2020-11-10T12:34:57.861431Z,Login attemp as support@support failed,2c3de844ab9b,51.15.86.91,-,
+2020-11-10T12:34:58.363747Z,Connection lost from SSH,2c3de844ab9b,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:34:58.539919Z,New Connection to SSH,b96d6605d30d,51.15.86.91,-,
+2020-11-10T12:34:58.919212Z,Login attemp as user@user failed,b96d6605d30d,51.15.86.91,-,
+2020-11-10T12:34:59.419662Z,Connection lost from SSH,b96d6605d30d,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:34:59.594512Z,New Connection to SSH,5257d6b61674,51.15.86.91,-,
+2020-11-10T12:34:59.981979Z,Login attemp as user@ failed,5257d6b61674,51.15.86.91,-,
+2020-11-10T12:35:00.483944Z,Connection lost from SSH,5257d6b61674,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:00.631741Z,New Connection to SSH,e21a07514eb5,51.15.86.91,-,
+2020-11-10T12:35:01.004891Z,Login attemp as admin@ failed,e21a07514eb5,51.15.86.91,-,
+2020-11-10T12:35:01.533896Z,Connection lost from SSH,e21a07514eb5,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:01.760140Z,New Connection to SSH,c8eae0ec7676,51.15.86.91,-,
+2020-11-10T12:35:02.143342Z,Login attemp as guest@guest failed,c8eae0ec7676,51.15.86.91,-,
+2020-11-10T12:35:02.644068Z,Connection lost from SSH,c8eae0ec7676,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:02.805401Z,New Connection to SSH,136a5a618ad1,51.15.86.91,-,
+2020-11-10T12:35:03.173202Z,Login attemp as guest@12345 failed,136a5a618ad1,51.15.86.91,-,
+2020-11-10T12:35:03.685091Z,Connection lost from SSH,136a5a618ad1,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:03.884841Z,New Connection to SSH,7f021ef09f32,51.15.86.91,-,
+2020-11-10T12:35:04.267458Z,Login attemp as default@default failed,7f021ef09f32,51.15.86.91,-,
+2020-11-10T12:35:04.768395Z,Connection lost from SSH,7f021ef09f32,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:04.918437Z,New Connection to SSH,cda75d12aacb,51.15.86.91,-,
+2020-11-10T12:35:05.302337Z,Login attemp as daemon@daemon failed,cda75d12aacb,51.15.86.91,-,
+2020-11-10T12:35:05.810662Z,Connection lost from SSH,cda75d12aacb,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:05.991129Z,New Connection to SSH,81dbdfea12b9,51.15.86.91,-,
+2020-11-10T12:35:06.382939Z,Login attemp as bin@ failed,81dbdfea12b9,51.15.86.91,-,
+2020-11-10T12:35:06.883861Z,Connection lost from SSH,81dbdfea12b9,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:35:07.062328Z,New Connection to SSH,7a5e5b59472f,51.15.86.91,-,
+2020-11-10T12:35:07.447408Z,Login attemp as root@default success,7a5e5b59472f,51.15.86.91,-,
+2020-11-10T12:35:07.509269Z,CPU/OS architecture emulated by cowrie saved as linux-x64-lsb,7a5e5b59472f,51.15.86.91,-,
+2020-11-10T12:35:07.957213Z,Closing TTY Log (Input Log) for this Session,7a5e5b59472f,51.15.86.91,-,
+2020-11-10T12:35:07.966583Z,Connection lost from SSH,7a5e5b59472f,51.15.86.91,-,T444 (Reconisance) Test Connection | 
+2020-11-10T12:36:32.589043Z,New Connection to SSH,4001d5e9cfac,141.98.9.163,-,
+2020-11-10T12:36:32.750327Z,Version,4001d5e9cfac,141.98.9.163,-,
+2020-11-10T12:36:32.909670Z,Cowrie save the SSH client hassh fingerprint as efc905af499ab20fa3cd9216b0770001,4001d5e9cfac,141.98.9.163,-,
+2020-11-10T12:36:33.649238Z,Login attemp as root@admin success,4001d5e9cfac,141.98.9.163,-,
+2020-11-10T12:36:33.811090Z,Connection lost from SSH,4001d5e9cfac,141.98.9.163,-,T444 (Reconisance) Test Connection | 
